@@ -57,6 +57,8 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[From Thinker to Society: Security in Hierarchical Autonomy Evolution of AI Agents](https://arxiv.org/abs/2603.07496)** — Zhang et al., 2026. Hierarchical Autonomy Evolution (HAE) framework organizing agent security into cognitive, execution, and societal tiers.
 - 📄 **[Characterizing Faults in Agentic AI: A Taxonomy of Types, Symptoms, and Root Causes](https://arxiv.org/abs/2603.06847)** — Shah et al., 2026. Empirical taxonomy of reliability failures in agentic AI systems combining LLM reasoning with tool invocation.
 - 📄 **[Security Considerations for Multi-agent Systems](https://arxiv.org/abs/2603.09002)** — 2026. Systematic threat landscape of MAS with 193 threat items across 9 categories; evaluates 16 frameworks finding none achieves majority coverage.
+- 📄 **[AgenticCyOps: Securing Multi-Agentic AI Integration in Enterprise Cyber Operations](https://arxiv.org/abs/2603.09134)** — Mitra et al., 2026. Holistic architectural security framework decomposing attack surfaces across component, coordination, and ecosystem layers of enterprise multi-agent systems.
+- 📄 **[MCP-in-SoS: Risk Assessment Framework for Open-Source MCP Servers](https://arxiv.org/abs/2603.10194)** — Kumar et al., 2026. System-of-systems risk assessment framework for evaluating security risks of open-source MCP server deployments in production agent systems.
 
 ## Attack Research
 
@@ -95,6 +97,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Indirect Prompt Injection
 
+- 📄 **[AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations](https://arxiv.org/abs/2603.10749)** — He et al., 2026. Defense against indirect prompt injection using causal attribution to trace which tool outputs triggered suspicious agent actions.
 - 📄 **[Adaptive Attacks and Defenses Against Indirect Prompt Injection](https://arxiv.org/abs/2408.XXXXX)** — Chen et al., 2024. Adaptive attackers bypassing static defenses.
 - 📄 **[HouYi: A Black-box Prompt Injection Attack on LLM-integrated Applications](https://arxiv.org/abs/2306.05499)** — Liu et al., 2023. Systematic methodology for finding injection vulnerabilities.
 - 📄 **[DMAST: Dual-Modality Multi-Stage Adversarial Safety Training](https://arxiv.org/abs/2603.04364)** — Liu et al., 2026. Cross-modal DOM injection corrupting both visual and text channels.
@@ -133,6 +136,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Runtime Monitoring & Sandboxing
 
+- 📄 **[Arbiter: Detecting Interference in LLM Agent System Prompts](https://arxiv.org/abs/2603.08993)** — Mason, 2026. Framework combining formal evaluation rules with multi-model LLM scouring to detect interference and vulnerability classes in agent system prompts.
 - 📄 **[MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in MCP Agents](https://arxiv.org/abs/2602.14281)** — Zhou et al., 2026. Plug-in security cognition layer for MCP agents that validates third-party tool invocations via experience-driven trust calibration.
 - 📄 **[AgentSentry: Real-time Monitoring for Agentic AI Systems](https://arxiv.org/abs/2502.XXXXX)** — Runtime behavioral monitoring of tool-using agents.
 - 📄 **[Monitoring Emergent Reward Hacking via Internal Activations](https://arxiv.org/abs/2603.04069)** — Sparse autoencoders detect reward-hacking during generation.
@@ -153,6 +157,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Evaluation & Red Teaming
 
+- 📄 **[Real-Time Trust Verification for Safe Agentic Actions using TrustBench](https://arxiv.org/abs/2603.09157)** — Sharma et al., AAAI 2026 Workshop on TrustAgent. Dual-mode framework benchmarking trust across multiple dimensions and providing a pre-execution action verification toolkit for agents.
 - 📄 **[Agent Security Bench (ASB)](https://arxiv.org/abs/2410.02644)** — 10 scenarios, 10 agents, 398 environments. Comprehensive agent security benchmark.
 - 📄 **[AgentDyn: A Dynamic Open-Ended Benchmark for Prompt Injection Attacks](https://arxiv.org/abs/2602.03117)** — Li et al., 2026. Dynamic, open-ended benchmark for evaluating indirect prompt injection defenses in real-world agent security systems.
 - 📄 **[NAAMSE: Framework for Evolutionary Security Evaluation of Agents](https://arxiv.org/abs/2602.07391)** — Pai et al., ICLR 2026 Workshop. Evolutionary framework reframing agent security evaluation as feedback-driven optimization with autonomous red-teaming.
