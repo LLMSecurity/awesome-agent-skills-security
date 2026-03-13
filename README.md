@@ -57,6 +57,8 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[From Thinker to Society: Security in Hierarchical Autonomy Evolution of AI Agents](https://arxiv.org/abs/2603.07496)** — Zhang et al., 2026. Hierarchical Autonomy Evolution (HAE) framework organizing agent security into cognitive, execution, and societal tiers.
 - 📄 **[Characterizing Faults in Agentic AI: A Taxonomy of Types, Symptoms, and Root Causes](https://arxiv.org/abs/2603.06847)** — Shah et al., 2026. Empirical taxonomy of reliability failures in agentic AI systems combining LLM reasoning with tool invocation.
 - 📄 **[Security Considerations for Multi-agent Systems](https://arxiv.org/abs/2603.09002)** — 2026. Systematic threat landscape of MAS with 193 threat items across 9 categories; evaluates 16 frameworks finding none achieves majority coverage.
+- 📄 **[The Attack and Defense Landscape of Agentic AI: A Comprehensive Survey](https://arxiv.org/abs/2603.11088)** — Kim et al., USENIX Security 2026. First systematic survey of AI agent security covering design space, attack landscape, and defense mechanisms with case studies on securing agentic systems.
+- 📄 **[Taming OpenClaw: Security Analysis and Mitigation of Autonomous LLM Agent Threats](https://arxiv.org/abs/2603.11619)** — Deng et al., 2026. Five-layer lifecycle-oriented security framework analyzing compound threats across initialization, input, inference, decision, and execution stages of autonomous LLM agents.
 - 📄 **[AgenticCyOps: Securing Multi-Agentic AI Integration in Enterprise Cyber Operations](https://arxiv.org/abs/2603.09134)** — Mitra et al., 2026. Holistic architectural security framework decomposing attack surfaces across component, coordination, and ecosystem layers of enterprise multi-agent systems.
 - 📄 **[MCP-in-SoS: Risk Assessment Framework for Open-Source MCP Servers](https://arxiv.org/abs/2603.10194)** — Kumar et al., 2026. System-of-systems risk assessment framework for evaluating security risks of open-source MCP server deployments in production agent systems.
 
@@ -94,6 +96,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[Privacy Risks of General-Purpose AI Systems: A Foundation for Investigating Practitioner Perspectives](https://arxiv.org/abs/2407.02027)** — GPAIS privacy risks including agent data handling.
 - 📄 **[IMMACULATE: A Framework for Analyzing Information Exposure in Agent-Based Systems](https://arxiv.org/abs/2502.XXXXX)** — Multi-turn agent information leakage analysis.
 - 📄 **[AgentRaft: Automated Detection of Data Over-Exposure in LLM Agents](https://arxiv.org/abs/2603.07557)** — Lin et al., 2026. Automated detection framework for identifying data over-exposure vulnerabilities in LLM agent integrations.
+- 📄 **[You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents](https://arxiv.org/abs/2603.11862)** — Kao et al., 2026. Identifies the Trusted Executor Dilemma where high-privilege agents execute adversarial README instructions at up to 85% success rate; 0% human detection rate across 15 participants.
 
 ### Indirect Prompt Injection
 
@@ -106,6 +109,10 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 - 📄 **[Thought Virus: Viral Misalignment via Subliminal Prompting in Multi-Agent Systems](https://arxiv.org/abs/2603.00131)** — Weckbecker et al., 2026. Single subliminally prompted agent spreads persistent bias through entire multi-agent network, degrading truthfulness of other agents.
 - 📄 **[Intentional Deception as Controllable Capability in LLM Agents](https://arxiv.org/abs/2603.07848)** — Starace & Soule, 2026. Systematic study of engineered deception in multi-agent LLM interactions using 36 behavioral profiles for defensive design.
+
+### Compound System Attacks
+
+- 📄 **[Cascade: Composing Software-Hardware Attack Gadgets for Adversarial Threat Amplification in Compound AI Systems](https://arxiv.org/abs/2603.12023)** — Banerjee et al., 2026. Demonstrates novel attacks combining traditional software/hardware vulnerabilities (code injection, Rowhammer) with LLM-specific algorithmic weaknesses to compromise compound AI pipelines.
 
 ### Cross-Plugin Attacks
 
@@ -138,6 +145,8 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 - 📄 **[Arbiter: Detecting Interference in LLM Agent System Prompts](https://arxiv.org/abs/2603.08993)** — Mason, 2026. Framework combining formal evaluation rules with multi-model LLM scouring to detect interference and vulnerability classes in agent system prompts.
 - 📄 **[MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in MCP Agents](https://arxiv.org/abs/2602.14281)** — Zhou et al., 2026. Plug-in security cognition layer for MCP agents that validates third-party tool invocations via experience-driven trust calibration.
+- 📄 **[OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents](https://arxiv.org/abs/2603.11853)** — Li, 2026. Runtime security layer distributing enforcement across ten lifecycle hooks with hybrid heuristic-plus-LLM scanning, session-scoped risk accumulation, and tamper-evident audit for agent gateways.
+- 📄 **[Governing Evolving Memory in LLM Agents: Risks, Mechanisms, and the SSGM Framework](https://arxiv.org/abs/2603.11768)** — Lam et al., 2026. Stability and Safety-Governed Memory framework mitigating topology-induced knowledge leakage and semantic drift in persistent agent memory systems.
 - 📄 **[AgentSentry: Real-time Monitoring for Agentic AI Systems](https://arxiv.org/abs/2502.XXXXX)** — Runtime behavioral monitoring of tool-using agents.
 - 📄 **[Monitoring Emergent Reward Hacking via Internal Activations](https://arxiv.org/abs/2603.04069)** — Sparse autoencoders detect reward-hacking during generation.
 - 📄 **[Self-Attribution Bias: When AI Monitors Go Easy on Themselves](https://arxiv.org/abs/2603.XXXXX)** — AI monitors exhibit systematic leniency on own outputs.
