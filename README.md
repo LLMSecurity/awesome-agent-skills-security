@@ -220,6 +220,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ## Industry Reports & Blog Posts
 
+- 🔗 **[Snowflake Cortex AI Escapes Sandbox and Executes Malware](https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware)** — PromptArmor, 2026. Prompt injection attack chain in Snowflake's Cortex Agent bypassed command allowlists via bash process substitution to achieve RCE; now patched.
 - 🔗 **[How AI Assistants are Moving the Security Goalposts](https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/)** — Krebs on Security, 2026. AI agents as insider threats.
 - 🔗 **[Anthropic: Challenges in Red Teaming AI Systems](https://www.anthropic.com/index/challenges-in-red-teaming-ai-systems)** — Anthropic's perspective on evaluating agent safety.
 - 🔗 **[OpenAI: Safety of Advanced AI Agents](https://openai.com/research/practices-for-governing-agentic-ai-systems)** — Practices for governing agentic AI systems.
