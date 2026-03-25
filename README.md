@@ -61,6 +61,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[Taming OpenClaw: Security Analysis and Mitigation of Autonomous LLM Agent Threats](https://arxiv.org/abs/2603.11619)** — Deng et al., 2026. Five-layer lifecycle-oriented security framework analyzing compound threats across initialization, input, inference, decision, and execution stages of autonomous LLM agents.
 - 📄 **[AgenticCyOps: Securing Multi-Agentic AI Integration in Enterprise Cyber Operations](https://arxiv.org/abs/2603.09134)** — Mitra et al., 2026. Holistic architectural security framework decomposing attack surfaces across component, coordination, and ecosystem layers of enterprise multi-agent systems.
 - 📄 **[MCP-in-SoS: Risk Assessment Framework for Open-Source MCP Servers](https://arxiv.org/abs/2603.10194)** — Kumar et al., 2026. System-of-systems risk assessment framework for evaluating security risks of open-source MCP server deployments in production agent systems.
+- 📄 **[SoK: The Attack Surface of Agentic AI — Tools, and Autonomy](https://arxiv.org/abs/2603.22928)** — Dehghantanha & Homayoun, 2026. Systematization mapping trust boundaries and security risks of agentic LLM systems; proposes taxonomy spanning prompt injection, RAG poisoning, tool exploits, and multi-agent threats with metrics like Unsafe Action Rate and Privilege Escalation Distance.
 
 ## Attack Research
 
@@ -74,6 +75,8 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Tool Poisoning & Supply Chain
 
+- 📄 **[Model Context Protocol Threat Modeling and Analyzing Vulnerabilities to Prompt Injection with Tool Poisoning](https://arxiv.org/abs/2603.22489)** — Huang et al., 2026. STRIDE/DREAD threat modeling of MCP across five components; systematic comparison of tool poisoning defenses in seven major MCP clients reveals insufficient static validation; proposes multi-layered defense strategy.
+- 📄 **[Are AI-assisted Development Tools Immune to Prompt Injection?](https://arxiv.org/abs/2603.21642)** — Huang et al., 2026. First empirical analysis of prompt injection via tool-poisoning across seven MCP clients (Claude Desktop, Claude Code, Cursor, Cline, Continue, Gemini CLI, Langflow); reveals significant security disparities with Cursor most susceptible.
 - 📄 **[Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks](https://arxiv.org/abs/2602.20156)** — Schmotz et al., 2026. Benchmark measuring agent vulnerability to malicious skill/config files; demonstrates data exfiltration, destructive actions, and ransomware-like behavior via AGENTS.md/CLAUDE.md injection.
 - 📄 **[ToolSword: Unveiling Safety Issues of LLMs in Tool Learning Across Three Stages](https://arxiv.org/abs/2402.10753)** — Ye et al., ACL 2024. Identifies safety issues across tool selection, tool calling, and result handling.
 - 📄 **[Compromising Agents via MCP](https://arxiv.org/abs/2504.03767)** — Invariant Labs, 2025. Tool poisoning attacks via Model Context Protocol servers.
@@ -213,6 +216,8 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[Promptfoo](https://github.com/promptfoo/promptfoo)** | LLM red teaming and evaluation framework | [![GitHub](https://img.shields.io/github/stars/promptfoo/promptfoo)](https://github.com/promptfoo/promptfoo) |
 | **[Garak](https://github.com/leondz/garak)** | LLM vulnerability scanner | [![GitHub](https://img.shields.io/github/stars/leondz/garak)](https://github.com/leondz/garak) |
 | **[AgentSkillsScanner](https://github.com/sumleo/AgentSkillsScanner)** | Static analysis scanner for agent skill definitions | [![GitHub](https://img.shields.io/github/stars/sumleo/AgentSkillsScanner)](https://github.com/sumleo/AgentSkillsScanner) |
+| **[Agent Audit](https://arxiv.org/abs/2603.22853)** | Security analysis system for LLM agent apps: dataflow analysis, credential detection, MCP config parsing, privilege-risk checks | [Zhang et al.](https://arxiv.org/abs/2603.22853) |
+| **[mcp-sec-audit](https://arxiv.org/abs/2603.21641)** | MCP server security toolkit: static pattern matching + dynamic sandboxed fuzzing via Docker/eBPF for detecting over-privileged tool capabilities | [Huang et al.](https://arxiv.org/abs/2603.21641) |
 
 ## Agent Skill Specifications
 
@@ -237,6 +242,8 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 🔗 **[TRAIL: Trusted Reasoning and AI Logging](https://arxiv.org/abs/2502.XXXXX)** — Logging framework for auditable agent execution.
 - 🔗 **[Cyber Threat Intelligence for AI Systems](https://arxiv.org/abs/2603.05068)** — AI-specific CTI framework with IoCs for supply-chain phases.
 - 🔗 **[AI Safety Has 12 Months Left](https://arxiv.org/abs/2603.XXXXX)** — Window to embed safety into infrastructure before market forces prevent it.
+- 🔗 **[LiteLLM Hack: Were You One of the 47,000?](https://futuresearch.ai/blog/litellm-hack-were-you-one-of-the-47000/)** — FutureSearch via Simon Willison, 2026. Analysis of PyPI supply-chain attack on LiteLLM: 47K downloads of exploited packages in 46 minutes, 88% of 2,337 dependent packages had unpinned versions.
+- 🔗 **[Exploiting Agentic Browsers: From False Information to Cross-Site Data Leaks](https://blog.trailofbits.com/)** — Trail of Bits, 2026. Demonstrates lack of isolation in agentic browsers enabling attacks from false information dissemination to cross-site data leaks, resurfacing decades-old web vulnerability patterns.
 
 ## Related Awesome Lists
 
