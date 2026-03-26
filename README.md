@@ -75,6 +75,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Tool Poisoning & Supply Chain
 
+- 📄 **[Invisible Threats from Model Context Protocol: Generating Stealthy Injection Payload via Tree-based Adaptive Search](https://arxiv.org/abs/2603.24203)** — Shen et al., 2026. Tree-structured Injection for Payloads (TIP): black-box attack generating natural-language payloads to seize control of MCP-enabled agents; achieves >95% attack success in undefended settings and >50% against four defense approaches with an order of magnitude fewer queries than prior adaptive attacks.
 - 📄 **[Model Context Protocol Threat Modeling and Analyzing Vulnerabilities to Prompt Injection with Tool Poisoning](https://arxiv.org/abs/2603.22489)** — Huang et al., 2026. STRIDE/DREAD threat modeling of MCP across five components; systematic comparison of tool poisoning defenses in seven major MCP clients reveals insufficient static validation; proposes multi-layered defense strategy.
 - 📄 **[Are AI-assisted Development Tools Immune to Prompt Injection?](https://arxiv.org/abs/2603.21642)** — Huang et al., 2026. First empirical analysis of prompt injection via tool-poisoning across seven MCP clients (Claude Desktop, Claude Code, Cursor, Cline, Continue, Gemini CLI, Langflow); reveals significant security disparities with Cursor most susceptible.
 - 📄 **[Skill-Inject: Measuring Agent Vulnerability to Skill File Attacks](https://arxiv.org/abs/2602.20156)** — Schmotz et al., 2026. Benchmark measuring agent vulnerability to malicious skill/config files; demonstrates data exfiltration, destructive actions, and ransomware-like behavior via AGENTS.md/CLAUDE.md injection.
@@ -131,6 +132,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Jailbreaking & Guardrail Bypass
 
+- 📄 **[Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs](https://arxiv.org/abs/2603.24511)** — Panfilov et al., 2026. Autonomous autoresearch pipeline powered by Claude Code discovers novel white-box adversarial attack algorithms that significantly outperform all existing 30+ methods in jailbreaking and prompt injection evaluations.
 - 📄 **[Jailbreaking ChatGPT via Prompt Engineering](https://arxiv.org/abs/2305.13860)** — Liu et al., 2023. Foundational jailbreaking taxonomy. 700+ citations.
 - 📄 **[MasterKey: Automated Jailbreaking of Large Language Model Chatbots](https://arxiv.org/abs/2307.08715)** — Deng et al., NDSS 2024. Automated time-based jailbreak generation.
 - 📄 **[PentestGPT: An LLM-empowered Automatic Penetration Testing Tool](https://arxiv.org/abs/2308.06782)** — Deng et al., 2023. Demonstrates agent-level tool use for offensive security. 11K+ GitHub stars.
@@ -234,6 +236,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 ## Industry Reports & Blog Posts
 
 - 🔗 **[Snowflake Cortex AI Escapes Sandbox and Executes Malware](https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware)** — PromptArmor, 2026. Prompt injection attack chain in Snowflake's Cortex Agent bypassed command allowlists via bash process substitution to achieve RCE; now patched.
+- 🔗 **[Confused Deputy Attacks on Autonomous AI Agents](https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-agent-confused-deputy-prompt-injection/)** — Cloud Security Alliance AI Safety Initiative, 2026. Research note on prompt injection chains enabling privilege escalation and autonomous compromise in AI agent systems.
 - 🔗 **[How AI Assistants are Moving the Security Goalposts](https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/)** — Krebs on Security, 2026. AI agents as insider threats.
 - 🔗 **[Anthropic: Challenges in Red Teaming AI Systems](https://www.anthropic.com/index/challenges-in-red-teaming-ai-systems)** — Anthropic's perspective on evaluating agent safety.
 - 🔗 **[OpenAI: Safety of Advanced AI Agents](https://openai.com/research/practices-for-governing-agentic-ai-systems)** — Practices for governing agentic AI systems.
