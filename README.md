@@ -155,6 +155,8 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Runtime Monitoring & Sandboxing
 
+- 📄 **[Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents](https://arxiv.org/abs/2604.24686)** — Marin and Chaudhary, 2026. Proposes adaptive runtime governance based on bounding unobserved risk as agent behavior drifts after authorization.
+- 📄 **[AgentWard: A Lifecycle Security Architecture for Autonomous AI Agents](https://arxiv.org/abs/2604.24657)** — Zhang et al., 2026. Lifecycle security architecture for autonomous agents spanning skills, external content, memory, planning, and privileged tool execution.
 - 📄 **[Arbiter: Detecting Interference in LLM Agent System Prompts](https://arxiv.org/abs/2603.08993)** — Mason, 2026. Framework combining formal evaluation rules with multi-model LLM scouring to detect interference and vulnerability classes in agent system prompts.
 - 📄 **[MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in MCP Agents](https://arxiv.org/abs/2602.14281)** — Zhou et al., 2026. Plug-in security cognition layer for MCP agents that validates third-party tool invocations via experience-driven trust calibration.
 - 📄 **[OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents](https://arxiv.org/abs/2603.11853)** — Li, 2026. Runtime security layer distributing enforcement across ten lifecycle hooks with hybrid heuristic-plus-LLM scanning, session-scoped risk accumulation, and tamper-evident audit for agent gateways.
@@ -168,6 +170,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Input/Output Validation
 
+- 📄 **[AgentVisor: Defending LLM Agents Against Prompt Injection via Semantic Virtualization](https://arxiv.org/abs/2604.24118)** — Ying et al., 2026. Defends tool-using agents by semantically virtualizing untrusted external content to reduce prompt injection influence on privileged actions.
 - 📄 **[StruQ: Defending Against Prompt Injection with Structured Queries](https://arxiv.org/abs/2402.06363)** — Separates prompts from data to prevent injection.
 - 📄 **[Towards Provably Unbiased LLM Judges via Bias-Bounded Evaluation](https://arxiv.org/abs/2603.05485)** — Formal guarantees for reducing bias in LLM-as-judge systems.
 - 📄 **[Judge Reliability Harness: Stress Testing LLM Judges](https://arxiv.org/abs/2603.05399)** — No evaluated judge is uniformly reliable.
