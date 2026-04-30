@@ -155,6 +155,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Runtime Monitoring & Sandboxing
 
+- 📄 **[Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital](https://arxiv.org/abs/2604.26091)** — Barton et al., 2026. Production study of 3,505 real-capital agents showing that agent reliability depends on operating-layer controls like prompt compilation, typed controls, policy validation, execution guards, and trace-level observability.
 - 📄 **[Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents](https://arxiv.org/abs/2604.24686)** — Marin and Chaudhary, 2026. Proposes adaptive runtime governance based on bounding unobserved risk as agent behavior drifts after authorization.
 - 📄 **[AgentWard: A Lifecycle Security Architecture for Autonomous AI Agents](https://arxiv.org/abs/2604.24657)** — Zhang et al., 2026. Lifecycle security architecture for autonomous agents spanning skills, external content, memory, planning, and privileged tool execution.
 - 📄 **[Arbiter: Detecting Interference in LLM Agent System Prompts](https://arxiv.org/abs/2603.08993)** — Mason, 2026. Framework combining formal evaluation rules with multi-model LLM scouring to detect interference and vulnerability classes in agent system prompts.
