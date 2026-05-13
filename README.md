@@ -109,6 +109,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 ### Indirect Prompt Injection
 
 - 📄 **[AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations](https://arxiv.org/abs/2603.10749)** — He et al., 2026. Defense against indirect prompt injection using causal attribution to trace which tool outputs triggered suspicious agent actions.
+- 📄 **[IPI-proxy: An Intercepting Proxy for Red-Teaming Web-Browsing AI Agents Against Indirect Prompt Injection](https://arxiv.org/abs/2605.11868)** — Chen et al., 2026. Open-source proxy that rewrites live responses from whitelisted domains with 820 benchmark payloads to evaluate browser agents against realistic indirect prompt injection.
 - 📄 **[Adaptive Attacks and Defenses Against Indirect Prompt Injection](https://arxiv.org/abs/2408.XXXXX)** — Chen et al., 2024. Adaptive attackers bypassing static defenses.
 - 📄 **[HouYi: A Black-box Prompt Injection Attack on LLM-integrated Applications](https://arxiv.org/abs/2306.05499)** — Liu et al., 2023. Systematic methodology for finding injection vulnerabilities.
 - 📄 **[DMAST: Dual-Modality Multi-Stage Adversarial Safety Training](https://arxiv.org/abs/2603.04364)** — Liu et al., 2026. Cross-modal DOM injection corrupting both visual and text channels.
@@ -116,6 +117,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 ### Agent Deception & Manipulation
 
 - 📄 **[Thought Virus: Viral Misalignment via Subliminal Prompting in Multi-Agent Systems](https://arxiv.org/abs/2603.00131)** — Weckbecker et al., 2026. Single subliminally prompted agent spreads persistent bias through entire multi-agent network, degrading truthfulness of other agents.
+- 📄 **[FlowSteer: Prompt-Only Workflow Steering Exposes Planning-Time Vulnerabilities in Multi-Agent LLM Systems](https://arxiv.org/abs/2605.11514)** — Li et al., 2026. Prompt-only attack that manipulates planner-executor workflow formation in multi-agent systems, plus FlowGuard as an input-side defense.
 - 📄 **[Intentional Deception as Controllable Capability in LLM Agents](https://arxiv.org/abs/2603.07848)** — Starace & Soule, 2026. Systematic study of engineered deception in multi-agent LLM interactions using 36 behavioral profiles for defensive design.
 
 ### Compound System Attacks
@@ -158,6 +160,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital](https://arxiv.org/abs/2604.26091)** — Barton et al., 2026. Production study of 3,505 real-capital agents showing that agent reliability depends on operating-layer controls like prompt compilation, typed controls, policy validation, execution guards, and trace-level observability.
 - 📄 **[Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents](https://arxiv.org/abs/2604.24686)** — Marin and Chaudhary, 2026. Proposes adaptive runtime governance based on bounding unobserved risk as agent behavior drifts after authorization.
 - 📄 **[AgentWard: A Lifecycle Security Architecture for Autonomous AI Agents](https://arxiv.org/abs/2604.24657)** — Zhang et al., 2026. Lifecycle security architecture for autonomous agents spanning skills, external content, memory, planning, and privileged tool execution.
+- 📄 **[Behavioral Integrity Verification for AI Agent Skills](https://arxiv.org/abs/2605.11770)** — Wu et al., 2026. Scalable pre-deployment skill auditing framework that compares declared versus actual capabilities, surfaces description-implementation gaps, and detects malicious skills with 0.946 F1.
 - 📄 **[Arbiter: Detecting Interference in LLM Agent System Prompts](https://arxiv.org/abs/2603.08993)** — Mason, 2026. Framework combining formal evaluation rules with multi-model LLM scouring to detect interference and vulnerability classes in agent system prompts.
 - 📄 **[MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in MCP Agents](https://arxiv.org/abs/2602.14281)** — Zhou et al., 2026. Plug-in security cognition layer for MCP agents that validates third-party tool invocations via experience-driven trust calibration.
 - 📄 **[OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents](https://arxiv.org/abs/2603.11853)** — Li, 2026. Runtime security layer distributing enforcement across ten lifecycle hooks with hybrid heuristic-plus-LLM scanning, session-scoped risk accumulation, and tamper-evident audit for agent gateways.
@@ -186,6 +189,9 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 - 📄 **[Real-Time Trust Verification for Safe Agentic Actions using TrustBench](https://arxiv.org/abs/2603.09157)** — Sharma et al., AAAI 2026 Workshop on TrustAgent. Dual-mode framework benchmarking trust across multiple dimensions and providing a pre-execution action verification toolkit for agents.
 - 📄 **[Agent Security Bench (ASB)](https://arxiv.org/abs/2410.02644)** — 10 scenarios, 10 agents, 398 environments. Comprehensive agent security benchmark.
+- 📄 **[SkillSafetyBench: Evaluating Agent Safety under Skill-Facing Attack Surfaces](https://arxiv.org/abs/2605.12015)** — Jin et al., 2026. Runnable benchmark with 155 adversarial skill-mediated cases across 47 tasks, 6 risk domains, and 30 safety categories.
+- 📄 **[No More, No Less: Task Alignment in Terminal Agents](https://arxiv.org/abs/2605.12233)** — Mavali et al., 2026. Introduces TAB, an 89-task benchmark for whether terminal agents selectively follow relevant environmental cues while resisting distractor instructions.
+- 📄 **[Proteus: A Self-Evolving Red Team for Agent Skill Ecosystems](https://arxiv.org/abs/2605.11891)** — Zhou et al., 2026. Grey-box adaptive red-teaming framework that iteratively rewrites skills using audit and runtime feedback to measure residual deployment risk.
 - 📄 **[AgentDyn: A Dynamic Open-Ended Benchmark for Prompt Injection Attacks](https://arxiv.org/abs/2602.03117)** — Li et al., 2026. Dynamic, open-ended benchmark for evaluating indirect prompt injection defenses in real-world agent security systems.
 - 📄 **[NAAMSE: Framework for Evolutionary Security Evaluation of Agents](https://arxiv.org/abs/2602.07391)** — Pai et al., ICLR 2026 Workshop. Evolutionary framework reframing agent security evaluation as feedback-driven optimization with autonomous red-teaming.
 - 📄 **[R-Judge: Benchmarking Safety Risk Awareness](https://arxiv.org/abs/2401.10019)** — 162 records, 27 risk scenarios for agent safety.
@@ -206,6 +212,8 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[R-Judge](https://github.com/Lordog/R-Judge)** | Safety risk awareness | 162 records, 27 scenarios | [Yuan et al.](https://arxiv.org/abs/2401.10019) |
 | **[ToolSword](https://github.com/Junjie-Ye/ToolSword)** | Tool learning safety | 6 scenarios, 3 stages | [Ye et al.](https://arxiv.org/abs/2402.10753) |
 | **[AgentDyn](https://arxiv.org/abs/2602.03117)** | Dynamic prompt injection | Open-ended, extensible | [Li et al.](https://arxiv.org/abs/2602.03117) |
+| **[SkillSafetyBench](https://arxiv.org/abs/2605.12015)** | Skill-mediated agent safety | 155 cases, 47 tasks | [Jin et al.](https://arxiv.org/abs/2605.12015) |
+| **[TAB](https://arxiv.org/abs/2605.12233)** | Selective cue following in terminal agents | 89 terminal tasks | [Mavali et al.](https://arxiv.org/abs/2605.12233) |
 | **[Skill-Inject](https://www.skill-inject.com/)** | Skill file attacks | Multi-scenario | [Schmotz et al.](https://arxiv.org/abs/2602.20156) |
 | **[NAAMSE](https://arxiv.org/abs/2602.07391)** | Evolutionary agent security eval | Adaptive red-teaming | [Pai et al.](https://arxiv.org/abs/2602.07391) |
 | **[AgentHarm](https://arxiv.org/abs/2410.09024)** | Agent misuse | 110 behaviors, 440 variants | [Andriushchenko et al.](https://arxiv.org/abs/2410.09024) |
@@ -224,6 +232,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[Lakera Guard](https://www.lakera.ai/)** | Enterprise prompt injection defense API | [Website](https://www.lakera.ai/) |
 | **[Promptfoo](https://github.com/promptfoo/promptfoo)** | LLM red teaming and evaluation framework | [![GitHub](https://img.shields.io/github/stars/promptfoo/promptfoo)](https://github.com/promptfoo/promptfoo) |
 | **[Garak](https://github.com/leondz/garak)** | LLM vulnerability scanner | [![GitHub](https://img.shields.io/github/stars/leondz/garak)](https://github.com/leondz/garak) |
+| **[IPI-Proxy](https://github.com/VulcanLab/IPI-Proxy)** | Intercepting proxy for red-teaming web-browsing agents against indirect prompt injection on live whitelisted domains | [![GitHub](https://img.shields.io/github/stars/VulcanLab/IPI-Proxy)](https://github.com/VulcanLab/IPI-Proxy) |
 | **[AgentSkillsScanner](https://github.com/sumleo/AgentSkillsScanner)** | Static analysis scanner for agent skill definitions | [![GitHub](https://img.shields.io/github/stars/sumleo/AgentSkillsScanner)](https://github.com/sumleo/AgentSkillsScanner) |
 | **[Agent Audit](https://arxiv.org/abs/2603.22853)** | Security analysis system for LLM agent apps: dataflow analysis, credential detection, MCP config parsing, privilege-risk checks | [Zhang et al.](https://arxiv.org/abs/2603.22853) |
 | **[mcp-sec-audit](https://arxiv.org/abs/2603.21641)** | MCP server security toolkit: static pattern matching + dynamic sandboxed fuzzing via Docker/eBPF for detecting over-privileged tool capabilities | [Huang et al.](https://arxiv.org/abs/2603.21641) |
