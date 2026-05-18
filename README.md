@@ -224,6 +224,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 | Tool | Description | Link |
 |------|-------------|------|
+| [APort Agent Guardrails](https://aport.io) | Pre-action authorization guardrails for AI agents and MCP/tool-use workflows. | https://aport.io |
 | **[SkillGuard](https://github.com/LLMSecurity/skillguard)** | LLM-native agent skill security auditor (OWASP Agentic + MITRE ATLAS) | [![GitHub](https://img.shields.io/github/stars/LLMSecurity/skillguard)](https://github.com/LLMSecurity/skillguard) |
 | **[Pipelock](https://github.com/luckyPipewrench/pipelock)** | Open-source AI agent firewall and MCP-aware egress proxy with DLP, prompt injection scanning, process sandboxing, and mediator-signed action receipts | [![GitHub](https://img.shields.io/github/stars/luckyPipewrench/pipelock)](https://github.com/luckyPipewrench/pipelock) |
 | **[Invariant Guardrails](https://github.com/invariantlabs-ai/invariant)** | Policy-based agent security guardrails | [![GitHub](https://img.shields.io/github/stars/invariantlabs-ai/invariant)](https://github.com/invariantlabs-ai/invariant) |
