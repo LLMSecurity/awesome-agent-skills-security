@@ -237,6 +237,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[AgentSkillsScanner](https://github.com/sumleo/AgentSkillsScanner)** | Static analysis scanner for agent skill definitions | [![GitHub](https://img.shields.io/github/stars/sumleo/AgentSkillsScanner)](https://github.com/sumleo/AgentSkillsScanner) |
 | **[Agent Audit](https://arxiv.org/abs/2603.22853)** | Security analysis system for LLM agent apps: dataflow analysis, credential detection, MCP config parsing, privilege-risk checks | [Zhang et al.](https://arxiv.org/abs/2603.22853) |
 | **[mcp-sec-audit](https://arxiv.org/abs/2603.21641)** | MCP server security toolkit: static pattern matching + dynamic sandboxed fuzzing via Docker/eBPF for detecting over-privileged tool capabilities | [Huang et al.](https://arxiv.org/abs/2603.21641) |
+| **[ejentum-mcp](https://github.com/ejentum/ejentum-mcp)** | Reasoning harness exposing four agentic tools (reasoning, code, anti-deception, memory) the agent calls during its loop; the anti-deception scaffold targets sycophancy, hallucination, authority-appeal capitulation, and prompt-injection susceptibility | [![GitHub](https://img.shields.io/github/stars/ejentum/ejentum-mcp)](https://github.com/ejentum/ejentum-mcp) |
 
 ## Agent Skill Specifications
 
