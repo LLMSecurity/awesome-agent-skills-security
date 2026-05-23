@@ -224,6 +224,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 | Tool | Description | Link |
 |------|-------------|------|
+| **[Bounty Sieve](https://github.com/junbuilds96/bounty-sieve)** | Offline-by-default bounty intake guardrail for coding agents: read-only GitHub issue/URL-list import, deterministic triage, local decision briefs, and human approval gates | [![GitHub](https://img.shields.io/github/stars/junbuilds96/bounty-sieve)](https://github.com/junbuilds96/bounty-sieve) |
 | **[SkillGuard](https://github.com/LLMSecurity/skillguard)** | LLM-native agent skill security auditor (OWASP Agentic + MITRE ATLAS) | [![GitHub](https://img.shields.io/github/stars/LLMSecurity/skillguard)](https://github.com/LLMSecurity/skillguard) |
 | **[Pipelock](https://github.com/luckyPipewrench/pipelock)** | Open-source AI agent firewall and MCP-aware egress proxy with DLP, prompt injection scanning, process sandboxing, and mediator-signed action receipts | [![GitHub](https://img.shields.io/github/stars/luckyPipewrench/pipelock)](https://github.com/luckyPipewrench/pipelock) |
 | **[Invariant Guardrails](https://github.com/invariantlabs-ai/invariant)** | Policy-based agent security guardrails | [![GitHub](https://img.shields.io/github/stars/invariantlabs-ai/invariant)](https://github.com/invariantlabs-ai/invariant) |
