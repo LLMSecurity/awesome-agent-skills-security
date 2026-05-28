@@ -47,6 +47,11 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ## Surveys & Systematizations
 
+- **[AgentGate](https://github.com/ElamOlame31/agentgate-public)** - Pre-execution authorization PDP for agent tool use. Intercepts every skill/tool call before execution, scores trust across 4 dimensions, detects kill chain attack patterns across 24h sessions. MIT licensed.
+
+
+https://www.tryagentgate.com/
+
 - 📄 **[A Survey on LLM-based Autonomous Agents: Common Attacks and Defenses](https://arxiv.org/abs/2402.09283)** — Wu et al., 2024. Comprehensive taxonomy of attacks on LLM agents across perception, cognition, and action stages.
 - 📄 **[Agent Security Bench (ASB): Formalizing and Benchmarking Attacks and Defenses in LLM-based Agents](https://arxiv.org/abs/2410.02644)** — Zhang et al., 2024. Formalization of 10 attack scenarios, 10 agents, 398 adversarial environments.
 - 📄 **[Security of AI Agents](https://arxiv.org/abs/2406.08689)** — He et al., 2024. Systematization of knowledge covering threat models for AI agents with tool access.
@@ -147,6 +152,11 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 ## Defense Research
 
 ### Permission & Access Control
+
+- **[AgentGate](https://github.com/ElamOlame31/agentgate-public)** - Pre-execution authorization PDP for agent tool use. Intercepts every skill/tool call before execution, scores trust across 4 dimensions, detects kill chain attack patterns across 24h sessions. MIT licensed.
+
+
+https://www.tryagentgate.com/
 
 - 📄 **[PAuth: Precise Task-Scoped Authorization For Agents](https://arxiv.org/abs/2603.17170)** — Sharma et al., 2026. Implicit authorization model where NL task submission authorizes only required operations; uses NL slices and envelopes for provenance-based server-side verification, blocking injected operations in AgentDojo with zero false positives.
 - 📄 **[TrustAgent: Towards Safe and Trustworthy LLM-based Agents](https://arxiv.org/abs/2402.01586)** — Agent Constitution for safety-aware planning with pre/post-action inspection.
