@@ -77,6 +77,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Tool Poisoning & Supply Chain
 
+- 📄 **[Harmless Yet Harmful: Neutral Prompting Attacks for Stealthy Hallucination Steering in Agent Skills](https://arxiv.org/abs/2605.29354)** — Hsu et al., 2026. Introduces neutral prompting attacks that covertly increase package hallucinations in coding agents, creating downstream software supply chain risk while evading existing skill-focused defenses.
 - 📄 **[Invisible Threats from Model Context Protocol: Generating Stealthy Injection Payload via Tree-based Adaptive Search](https://arxiv.org/abs/2603.24203)** — Shen et al., 2026. Tree-structured Injection for Payloads (TIP): black-box attack generating natural-language payloads to seize control of MCP-enabled agents; achieves >95% attack success in undefended settings and >50% against four defense approaches with an order of magnitude fewer queries than prior adaptive attacks.
 - 📄 **[Model Context Protocol Threat Modeling and Analyzing Vulnerabilities to Prompt Injection with Tool Poisoning](https://arxiv.org/abs/2603.22489)** — Huang et al., 2026. STRIDE/DREAD threat modeling of MCP across five components; systematic comparison of tool poisoning defenses in seven major MCP clients reveals insufficient static validation; proposes multi-layered defense strategy.
 - 📄 **[Are AI-assisted Development Tools Immune to Prompt Injection?](https://arxiv.org/abs/2603.21642)** — Huang et al., 2026. First empirical analysis of prompt injection via tool-poisoning across seven MCP clients (Claude Desktop, Claude Code, Cursor, Cline, Continue, Gemini CLI, Langflow); reveals significant security disparities with Cursor most susceptible.
@@ -116,6 +117,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Agent Deception & Manipulation
 
+- 📄 **[Hijacking Agent Memory: Stealthy Trojan Attacks Through Conversational Interaction](https://arxiv.org/abs/2605.29960)** — Yang et al., 2026. MemPoison shows how attackers can plant triggerable backdoors into long-term agent memory through ordinary dialogue, bypassing selective memory extraction and rewriting pipelines.
 - 📄 **[Thought Virus: Viral Misalignment via Subliminal Prompting in Multi-Agent Systems](https://arxiv.org/abs/2603.00131)** — Weckbecker et al., 2026. Single subliminally prompted agent spreads persistent bias through entire multi-agent network, degrading truthfulness of other agents.
 - 📄 **[FlowSteer: Prompt-Only Workflow Steering Exposes Planning-Time Vulnerabilities in Multi-Agent LLM Systems](https://arxiv.org/abs/2605.11514)** — Li et al., 2026. Prompt-only attack that manipulates planner-executor workflow formation in multi-agent systems, plus FlowGuard as an input-side defense.
 - 📄 **[Intentional Deception as Controllable Capability in LLM Agents](https://arxiv.org/abs/2603.07848)** — Starace & Soule, 2026. Systematic study of engineered deception in multi-agent LLM interactions using 36 behavioral profiles for defensive design.
@@ -158,6 +160,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Runtime Monitoring & Sandboxing
 
+- 📄 **[AIRGuard: Guarding Agent Actions with Runtime Authority Control](https://arxiv.org/abs/2605.28914)** — Qin et al., 2026. Runtime defense layer that treats untrusted context as informative but never authorizing, normalizing tool calls and enforcing action-time authority checks to reduce tool-mediated attacks.
 - 📄 **[Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital](https://arxiv.org/abs/2604.26091)** — Barton et al., 2026. Production study of 3,505 real-capital agents showing that agent reliability depends on operating-layer controls like prompt compilation, typed controls, policy validation, execution guards, and trace-level observability.
 - 📄 **[Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents](https://arxiv.org/abs/2604.24686)** — Marin and Chaudhary, 2026. Proposes adaptive runtime governance based on bounding unobserved risk as agent behavior drifts after authorization.
 - 📄 **[AgentWard: A Lifecycle Security Architecture for Autonomous AI Agents](https://arxiv.org/abs/2604.24657)** — Zhang et al., 2026. Lifecycle security architecture for autonomous agents spanning skills, external content, memory, planning, and privileged tool execution.
@@ -190,6 +193,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Evaluation & Red Teaming
 
+- 📄 **[The Best-Laid SCHEMEs: Coordinated Sabotage and Monitoring in Multi-Agent Systems](https://arxiv.org/abs/2605.29178)** — Bernabeu-Perez et al., 2026. Benchmark for covert multi-agent sabotage showing coordinated hidden objectives are already practical in coding systems, while trusted monitors can still detect most attacks.
 - 📄 **[Real-Time Trust Verification for Safe Agentic Actions using TrustBench](https://arxiv.org/abs/2603.09157)** — Sharma et al., AAAI 2026 Workshop on TrustAgent. Dual-mode framework benchmarking trust across multiple dimensions and providing a pre-execution action verification toolkit for agents.
 - 📄 **[Agent Security Bench (ASB)](https://arxiv.org/abs/2410.02644)** — 10 scenarios, 10 agents, 398 environments. Comprehensive agent security benchmark.
 - 📄 **[SkillSafetyBench: Evaluating Agent Safety under Skill-Facing Attack Surfaces](https://arxiv.org/abs/2605.12015)** — Jin et al., 2026. Runnable benchmark with 155 adversarial skill-mediated cases across 47 tasks, 6 risk domains, and 30 safety categories.
