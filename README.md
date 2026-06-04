@@ -246,7 +246,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[AgentSkillsScanner](https://github.com/sumleo/AgentSkillsScanner)** | Static analysis scanner for agent skill definitions | [![GitHub](https://img.shields.io/github/stars/sumleo/AgentSkillsScanner)](https://github.com/sumleo/AgentSkillsScanner) |
 | **[Agent Audit](https://arxiv.org/abs/2603.22853)** | Security analysis system for LLM agent apps: dataflow analysis, credential detection, MCP config parsing, privilege-risk checks | [Zhang et al.](https://arxiv.org/abs/2603.22853) |
 | **[mcp-sec-audit](https://arxiv.org/abs/2603.21641)** | MCP server security toolkit: static pattern matching + dynamic sandboxed fuzzing via Docker/eBPF for detecting over-privileged tool capabilities | [Huang et al.](https://arxiv.org/abs/2603.21641) |
-| **[Assay Harness](https://github.com/Rul1an/Assay-Harness)** | CI gate that checks an agent's claimed tool side-effects (filesystem, network, process) against independently observed runtime evidence. Each claim is supported, degraded, blocked, or not-evaluable, with observed support as the ceiling (no completeness claim) | [![GitHub](https://img.shields.io/github/stars/Rul1an/Assay-Harness)](https://github.com/Rul1an/Assay-Harness) |
+| **[Assay Harness](https://github.com/Rul1an/Assay-Harness)** | CI gate that checks an agent's claimed tool side-effects (filesystem, network, process) against independently observed runtime evidence, classifying each claim as supported, degraded, blocked, or not-evaluable (observed support is the ceiling) | [![GitHub](https://img.shields.io/github/stars/Rul1an/Assay-Harness)](https://github.com/Rul1an/Assay-Harness) |
 
 ## Agent Skill Specifications
 
