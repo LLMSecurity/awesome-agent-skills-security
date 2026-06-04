@@ -234,6 +234,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 |------|-------------|------|
 | **[SkillGuard](https://github.com/LLMSecurity/skillguard)** | LLM-native agent skill security auditor (OWASP Agentic + MITRE ATLAS) | [![GitHub](https://img.shields.io/github/stars/LLMSecurity/skillguard)](https://github.com/LLMSecurity/skillguard) |
 | **[Pipelock](https://github.com/luckyPipewrench/pipelock)** | Open-source AI agent firewall and MCP-aware egress proxy with DLP, prompt injection scanning, process sandboxing, and mediator-signed action receipts | [![GitHub](https://img.shields.io/github/stars/luckyPipewrench/pipelock)](https://github.com/luckyPipewrench/pipelock) |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | NVIDIA reference stack for running always-on AI agents more safely in sandboxes, with network policy, hardening, routed inference, and lifecycle controls | [![GitHub](https://img.shields.io/github/stars/NVIDIA/NemoClaw)](https://github.com/NVIDIA/NemoClaw) |
 | **[Invariant Guardrails](https://github.com/invariantlabs-ai/invariant)** | Policy-based agent security guardrails | [![GitHub](https://img.shields.io/github/stars/invariantlabs-ai/invariant)](https://github.com/invariantlabs-ai/invariant) |
 | **[LLM Guard](https://github.com/protectai/llm-guard)** | Input/output scanning for LLM applications | [![GitHub](https://img.shields.io/github/stars/protectai/llm-guard)](https://github.com/protectai/llm-guard) |
 | **[Rebuff](https://github.com/protectai/rebuff)** | Self-hardening prompt injection detector | [![GitHub](https://img.shields.io/github/stars/protectai/rebuff)](https://github.com/protectai/rebuff) |
@@ -268,6 +269,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 🔗 **[OpenAI: Safety of Advanced AI Agents](https://openai.com/research/practices-for-governing-agentic-ai-systems)** — Practices for governing agentic AI systems.
 - 🔗 **[Compromising Agents via MCP](https://invariantlabs.ai/blog/mcp-security)** — Invariant Labs deep-dive into MCP attack vectors.
 - 🔗 **[Simon Willison: Prompt Injection Explained](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/)** — Accessible introduction to prompt injection risks.
+- 🔗 **[The sorry state of skill distribution](https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/)** — Trail of Bits, 2026. Demonstrates practical bypasses against ClawHub, Cisco skill-scanner, and skills.sh, showing how malicious skills can evade current marketplace scanners via truncation, archive indirection, poisoned bytecode, and prompt-injection framing.
 - 🔗 **[TRAIL: Trusted Reasoning and AI Logging](https://arxiv.org/abs/2502.XXXXX)** — Logging framework for auditable agent execution.
 - 🔗 **[Cyber Threat Intelligence for AI Systems](https://arxiv.org/abs/2603.05068)** — AI-specific CTI framework with IoCs for supply-chain phases.
 - 🔗 **[AI Safety Has 12 Months Left](https://arxiv.org/abs/2603.XXXXX)** — Window to embed safety into infrastructure before market forces prevent it.
