@@ -246,6 +246,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[AgentSkillsScanner](https://github.com/sumleo/AgentSkillsScanner)** | Static analysis scanner for agent skill definitions | [![GitHub](https://img.shields.io/github/stars/sumleo/AgentSkillsScanner)](https://github.com/sumleo/AgentSkillsScanner) |
 | **[Agent Audit](https://arxiv.org/abs/2603.22853)** | Security analysis system for LLM agent apps: dataflow analysis, credential detection, MCP config parsing, privilege-risk checks | [Zhang et al.](https://arxiv.org/abs/2603.22853) |
 | **[mcp-sec-audit](https://arxiv.org/abs/2603.21641)** | MCP server security toolkit: static pattern matching + dynamic sandboxed fuzzing via Docker/eBPF for detecting over-privileged tool capabilities | [Huang et al.](https://arxiv.org/abs/2603.21641) |
+| **[Agent Scan](https://github.com/snyk/agent-scan)** | Snyk's scanner for local agent supply chains, covering MCP servers and skills with checks for prompt injection, tool poisoning, toxic flows, and malware-laced skill files | [![GitHub](https://img.shields.io/github/stars/snyk/agent-scan)](https://github.com/snyk/agent-scan) |
 
 ## Agent Skill Specifications
 
@@ -275,6 +276,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 🔗 **[AI Safety Has 12 Months Left](https://arxiv.org/abs/2603.XXXXX)** — Window to embed safety into infrastructure before market forces prevent it.
 - 🔗 **[LiteLLM Hack: Were You One of the 47,000?](https://futuresearch.ai/blog/litellm-hack-were-you-one-of-the-47000/)** — FutureSearch via Simon Willison, 2026. Analysis of PyPI supply-chain attack on LiteLLM: 47K downloads of exploited packages in 46 minutes, 88% of 2,337 dependent packages had unpinned versions.
 - 🔗 **[Exploiting Agentic Browsers: From False Information to Cross-Site Data Leaks](https://blog.trailofbits.com/)** — Trail of Bits, 2026. Demonstrates lack of isolation in agentic browsers enabling attacks from false information dissemination to cross-site data leaks, resurfacing decades-old web vulnerability patterns.
+- 🔗 **[OpenAI Help: Lockdown Mode](https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/)** — Simon Willison, 2026. Highlights OpenAI's new network-egress restriction mode for ChatGPT as a concrete mitigation for prompt-injection-driven data exfiltration in agentic workflows.
 
 ## Related Awesome Lists
 
