@@ -77,6 +77,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Tool Poisoning & Supply Chain
 
+- 📄 **[Harmless Yet Harmful: Neutral Prompting Attacks for Stealthy Hallucination Steering in Agent Skills](https://arxiv.org/abs/2605.29354)** — Hsu et al., 2026. Introduces neutral prompting attacks that covertly increase package hallucinations in coding agents, creating downstream software supply chain risk while evading existing skill-focused defenses.
 - 📄 **[Invisible Threats from Model Context Protocol: Generating Stealthy Injection Payload via Tree-based Adaptive Search](https://arxiv.org/abs/2603.24203)** — Shen et al., 2026. Tree-structured Injection for Payloads (TIP): black-box attack generating natural-language payloads to seize control of MCP-enabled agents; achieves >95% attack success in undefended settings and >50% against four defense approaches with an order of magnitude fewer queries than prior adaptive attacks.
 - 📄 **[Model Context Protocol Threat Modeling and Analyzing Vulnerabilities to Prompt Injection with Tool Poisoning](https://arxiv.org/abs/2603.22489)** — Huang et al., 2026. STRIDE/DREAD threat modeling of MCP across five components; systematic comparison of tool poisoning defenses in seven major MCP clients reveals insufficient static validation; proposes multi-layered defense strategy.
 - 📄 **[Are AI-assisted Development Tools Immune to Prompt Injection?](https://arxiv.org/abs/2603.21642)** — Huang et al., 2026. First empirical analysis of prompt injection via tool-poisoning across seven MCP clients (Claude Desktop, Claude Code, Cursor, Cline, Continue, Gemini CLI, Langflow); reveals significant security disparities with Cursor most susceptible.
@@ -109,13 +110,16 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 ### Indirect Prompt Injection
 
 - 📄 **[AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations](https://arxiv.org/abs/2603.10749)** — He et al., 2026. Defense against indirect prompt injection using causal attribution to trace which tool outputs triggered suspicious agent actions.
+- 📄 **[IPI-proxy: An Intercepting Proxy for Red-Teaming Web-Browsing AI Agents Against Indirect Prompt Injection](https://arxiv.org/abs/2605.11868)** — Chen et al., 2026. Open-source proxy that rewrites live responses from whitelisted domains with 820 benchmark payloads to evaluate browser agents against realistic indirect prompt injection.
 - 📄 **[Adaptive Attacks and Defenses Against Indirect Prompt Injection](https://arxiv.org/abs/2408.XXXXX)** — Chen et al., 2024. Adaptive attackers bypassing static defenses.
 - 📄 **[HouYi: A Black-box Prompt Injection Attack on LLM-integrated Applications](https://arxiv.org/abs/2306.05499)** — Liu et al., 2023. Systematic methodology for finding injection vulnerabilities.
 - 📄 **[DMAST: Dual-Modality Multi-Stage Adversarial Safety Training](https://arxiv.org/abs/2603.04364)** — Liu et al., 2026. Cross-modal DOM injection corrupting both visual and text channels.
 
 ### Agent Deception & Manipulation
 
+- 📄 **[Hijacking Agent Memory: Stealthy Trojan Attacks Through Conversational Interaction](https://arxiv.org/abs/2605.29960)** — Yang et al., 2026. MemPoison shows how attackers can plant triggerable backdoors into long-term agent memory through ordinary dialogue, bypassing selective memory extraction and rewriting pipelines.
 - 📄 **[Thought Virus: Viral Misalignment via Subliminal Prompting in Multi-Agent Systems](https://arxiv.org/abs/2603.00131)** — Weckbecker et al., 2026. Single subliminally prompted agent spreads persistent bias through entire multi-agent network, degrading truthfulness of other agents.
+- 📄 **[FlowSteer: Prompt-Only Workflow Steering Exposes Planning-Time Vulnerabilities in Multi-Agent LLM Systems](https://arxiv.org/abs/2605.11514)** — Li et al., 2026. Prompt-only attack that manipulates planner-executor workflow formation in multi-agent systems, plus FlowGuard as an input-side defense.
 - 📄 **[Intentional Deception as Controllable Capability in LLM Agents](https://arxiv.org/abs/2603.07848)** — Starace & Soule, 2026. Systematic study of engineered deception in multi-agent LLM interactions using 36 behavioral profiles for defensive design.
 
 ### Compound System Attacks
@@ -152,9 +156,17 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[Talk Freely, Execute Strictly: Schema-Gated Agentic AI](https://arxiv.org/abs/2603.XXXXX)** — Schema-gated orchestration for trustworthy agent deployment in regulated domains.
 - 📄 **[ESAA-Security: Event-Sourced Architecture for Agent-Assisted Security Audits](https://arxiv.org/abs/2603.XXXXX)** — 26 tasks, 95 checks, append-only event logs for reproducible AI code audits.
 - 📄 **[Caging the Agents: A Zero Trust Security Architecture for Autonomous AI in Healthcare](https://arxiv.org/abs/2603.17419)** — Maiti, 2026. Production-deployed zero-trust architecture for 9 autonomous AI agents: gVisor kernel isolation, credential proxy sidecars, network egress allowlisting, and prompt integrity framework with untrusted content labeling. Open-source configs released.
+- 📄 **[A First Measurement Study on Authentication Security in Real-World Remote MCP Servers](https://arxiv.org/abs/2605.22333)** — Zhou et al., 2026. Large-scale measurement of 7,973 remote MCP servers finding widespread unauthenticated exposure and pervasive OAuth flaws, with 9 CVEs from responsible disclosure.
 
 ### Runtime Monitoring & Sandboxing
 
+- 📄 **[AIRGuard: Guarding Agent Actions with Runtime Authority Control](https://arxiv.org/abs/2605.28914)** — Qin et al., 2026. Runtime defense layer that treats untrusted context as informative but never authorizing, normalizing tool calls and enforcing action-time authority checks to reduce tool-mediated attacks.
+- 📄 **[Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital](https://arxiv.org/abs/2604.26091)** — Barton et al., 2026. Production study of 3,505 real-capital agents showing that agent reliability depends on operating-layer controls like prompt compilation, typed controls, policy validation, execution guards, and trace-level observability.
+- 📄 **[Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents](https://arxiv.org/abs/2604.24686)** — Marin and Chaudhary, 2026. Proposes adaptive runtime governance based on bounding unobserved risk as agent behavior drifts after authorization.
+- 📄 **[AgentWard: A Lifecycle Security Architecture for Autonomous AI Agents](https://arxiv.org/abs/2604.24657)** — Zhang et al., 2026. Lifecycle security architecture for autonomous agents spanning skills, external content, memory, planning, and privileged tool execution.
+- 📄 **[Behavioral Integrity Verification for AI Agent Skills](https://arxiv.org/abs/2605.11770)** — Wu et al., 2026. Scalable pre-deployment skill auditing framework that compares declared versus actual capabilities, surfaces description-implementation gaps, and detects malicious skills with 0.946 F1.
+- 📄 **[ADR: An Agentic Detection System for Enterprise Agentic AI Security](https://arxiv.org/abs/2605.17380)** — Li et al., MLSys Industry Track 2026. Production MCP security system with telemetry, red teaming, and two-tier online detection deployed across 7,200+ hosts and 10,000+ daily agent sessions.
+- 📄 **[Content-Aware Attack Detection in LLM Agent Tool-Call Traffic: An Empirical Study of Features, Architectures, and Evaluation Protocols](https://arxiv.org/abs/2605.11053)** — Zavrak, 2026. Shows content-aware graph and embedding-based monitoring of MCP tool-call traffic substantially outperforms metadata-only detection and highlights evaluation leakage pitfalls.
 - 📄 **[Arbiter: Detecting Interference in LLM Agent System Prompts](https://arxiv.org/abs/2603.08993)** — Mason, 2026. Framework combining formal evaluation rules with multi-model LLM scouring to detect interference and vulnerability classes in agent system prompts.
 - 📄 **[MCPShield: A Security Cognition Layer for Adaptive Trust Calibration in MCP Agents](https://arxiv.org/abs/2602.14281)** — Zhou et al., 2026. Plug-in security cognition layer for MCP agents that validates third-party tool invocations via experience-driven trust calibration.
 - 📄 **[OpenClaw PRISM: A Zero-Fork, Defense-in-Depth Runtime Security Layer for Tool-Augmented LLM Agents](https://arxiv.org/abs/2603.11853)** — Li, 2026. Runtime security layer distributing enforcement across ten lifecycle hooks with hybrid heuristic-plus-LLM scanning, session-scoped risk accumulation, and tamper-evident audit for agent gateways.
@@ -168,6 +180,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Input/Output Validation
 
+- 📄 **[AgentVisor: Defending LLM Agents Against Prompt Injection via Semantic Virtualization](https://arxiv.org/abs/2604.24118)** — Ying et al., 2026. Defends tool-using agents by semantically virtualizing untrusted external content to reduce prompt injection influence on privileged actions.
 - 📄 **[StruQ: Defending Against Prompt Injection with Structured Queries](https://arxiv.org/abs/2402.06363)** — Separates prompts from data to prevent injection.
 - 📄 **[Towards Provably Unbiased LLM Judges via Bias-Bounded Evaluation](https://arxiv.org/abs/2603.05485)** — Formal guarantees for reducing bias in LLM-as-judge systems.
 - 📄 **[Judge Reliability Harness: Stress Testing LLM Judges](https://arxiv.org/abs/2603.05399)** — No evaluated judge is uniformly reliable.
@@ -180,8 +193,12 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Evaluation & Red Teaming
 
+- 📄 **[The Best-Laid SCHEMEs: Coordinated Sabotage and Monitoring in Multi-Agent Systems](https://arxiv.org/abs/2605.29178)** — Bernabeu-Perez et al., 2026. Benchmark for covert multi-agent sabotage showing coordinated hidden objectives are already practical in coding systems, while trusted monitors can still detect most attacks.
 - 📄 **[Real-Time Trust Verification for Safe Agentic Actions using TrustBench](https://arxiv.org/abs/2603.09157)** — Sharma et al., AAAI 2026 Workshop on TrustAgent. Dual-mode framework benchmarking trust across multiple dimensions and providing a pre-execution action verification toolkit for agents.
 - 📄 **[Agent Security Bench (ASB)](https://arxiv.org/abs/2410.02644)** — 10 scenarios, 10 agents, 398 environments. Comprehensive agent security benchmark.
+- 📄 **[SkillSafetyBench: Evaluating Agent Safety under Skill-Facing Attack Surfaces](https://arxiv.org/abs/2605.12015)** — Jin et al., 2026. Runnable benchmark with 155 adversarial skill-mediated cases across 47 tasks, 6 risk domains, and 30 safety categories.
+- 📄 **[No More, No Less: Task Alignment in Terminal Agents](https://arxiv.org/abs/2605.12233)** — Mavali et al., 2026. Introduces TAB, an 89-task benchmark for whether terminal agents selectively follow relevant environmental cues while resisting distractor instructions.
+- 📄 **[Proteus: A Self-Evolving Red Team for Agent Skill Ecosystems](https://arxiv.org/abs/2605.11891)** — Zhou et al., 2026. Grey-box adaptive red-teaming framework that iteratively rewrites skills using audit and runtime feedback to measure residual deployment risk.
 - 📄 **[AgentDyn: A Dynamic Open-Ended Benchmark for Prompt Injection Attacks](https://arxiv.org/abs/2602.03117)** — Li et al., 2026. Dynamic, open-ended benchmark for evaluating indirect prompt injection defenses in real-world agent security systems.
 - 📄 **[NAAMSE: Framework for Evolutionary Security Evaluation of Agents](https://arxiv.org/abs/2602.07391)** — Pai et al., ICLR 2026 Workshop. Evolutionary framework reframing agent security evaluation as feedback-driven optimization with autonomous red-teaming.
 - 📄 **[R-Judge: Benchmarking Safety Risk Awareness](https://arxiv.org/abs/2401.10019)** — 162 records, 27 risk scenarios for agent safety.
@@ -192,6 +209,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[Interactive Benchmarks](https://arxiv.org/abs/2603.04737)** — Evaluating via interactive proofs and games instead of static benchmarks.
 - 📄 **[VeriGrey: Greybox Agent Validation](https://arxiv.org/abs/2603.17639)** — Zhang et al., 2026. Greybox security testing using tool-invocation sequences as feedback and mutational prompt fuzzing; 33% more effective than black-box on AgentDojo, discovers prompt injection scenarios missed by black-box in Gemini CLI and OpenClaw.
 - 📄 **[LAAF: Logic-layer Automated Attack Framework for Agentic LLM Systems](https://arxiv.org/abs/2603.17239)** — Atta et al., 2026. First automated red-teaming framework combining 49-technique LPCI taxonomy with stage-sequential seed escalation; 84% mean aggregate breakthrough rate across five production LLM platforms.
+- 📄 **[VIPER-MCP: Detecting and Exploiting Taint-Style Vulnerabilities in Model Context Protocol Servers](https://arxiv.org/abs/2605.21392)** — Sun et al., 2026. End-to-end auditing framework that statically localizes vulnerable MCP tool handlers and dynamically evolves proof-of-concept prompts, uncovering 106 confirmed 0-days and 67 CVEs across open-source MCP servers.
 
 ## Benchmarks & Datasets
 
@@ -202,6 +220,8 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[R-Judge](https://github.com/Lordog/R-Judge)** | Safety risk awareness | 162 records, 27 scenarios | [Yuan et al.](https://arxiv.org/abs/2401.10019) |
 | **[ToolSword](https://github.com/Junjie-Ye/ToolSword)** | Tool learning safety | 6 scenarios, 3 stages | [Ye et al.](https://arxiv.org/abs/2402.10753) |
 | **[AgentDyn](https://arxiv.org/abs/2602.03117)** | Dynamic prompt injection | Open-ended, extensible | [Li et al.](https://arxiv.org/abs/2602.03117) |
+| **[SkillSafetyBench](https://arxiv.org/abs/2605.12015)** | Skill-mediated agent safety | 155 cases, 47 tasks | [Jin et al.](https://arxiv.org/abs/2605.12015) |
+| **[TAB](https://arxiv.org/abs/2605.12233)** | Selective cue following in terminal agents | 89 terminal tasks | [Mavali et al.](https://arxiv.org/abs/2605.12233) |
 | **[Skill-Inject](https://www.skill-inject.com/)** | Skill file attacks | Multi-scenario | [Schmotz et al.](https://arxiv.org/abs/2602.20156) |
 | **[NAAMSE](https://arxiv.org/abs/2602.07391)** | Evolutionary agent security eval | Adaptive red-teaming | [Pai et al.](https://arxiv.org/abs/2602.07391) |
 | **[AgentHarm](https://arxiv.org/abs/2410.09024)** | Agent misuse | 110 behaviors, 440 variants | [Andriushchenko et al.](https://arxiv.org/abs/2410.09024) |
@@ -212,17 +232,27 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 | Tool | Description | Link |
 |------|-------------|------|
+| **[Bounty Sieve](https://github.com/junbuilds96/bounty-sieve)** | Offline-by-default bounty intake guardrail for coding agents: read-only GitHub issue/URL-list import, deterministic triage, local decision briefs, and human approval gates | [![GitHub](https://img.shields.io/github/stars/junbuilds96/bounty-sieve)](https://github.com/junbuilds96/bounty-sieve) |
 | **[SkillGuard](https://github.com/LLMSecurity/skillguard)** | LLM-native agent skill security auditor (OWASP Agentic + MITRE ATLAS) | [![GitHub](https://img.shields.io/github/stars/LLMSecurity/skillguard)](https://github.com/LLMSecurity/skillguard) |
+| **[Pipelock](https://github.com/luckyPipewrench/pipelock)** | Open-source AI agent firewall and MCP-aware egress proxy with DLP, prompt injection scanning, process sandboxing, and mediator-signed action receipts | [![GitHub](https://img.shields.io/github/stars/luckyPipewrench/pipelock)](https://github.com/luckyPipewrench/pipelock) |
+| **[NemoClaw](https://github.com/NVIDIA/NemoClaw)** | NVIDIA reference stack for running always-on AI agents more safely in sandboxes, with network policy, hardening, routed inference, and lifecycle controls | [![GitHub](https://img.shields.io/github/stars/NVIDIA/NemoClaw)](https://github.com/NVIDIA/NemoClaw) |
 | **[Invariant Guardrails](https://github.com/invariantlabs-ai/invariant)** | Policy-based agent security guardrails | [![GitHub](https://img.shields.io/github/stars/invariantlabs-ai/invariant)](https://github.com/invariantlabs-ai/invariant) |
+| **[Armorer Guard](https://github.com/ArmorerLabs/Armorer-Guard)** | Local Rust scanner for AI-agent prompt injection, credential redaction, sensitive-data requests, exfiltration-style text, and dangerous tool-call context | [![GitHub](https://img.shields.io/github/stars/ArmorerLabs/Armorer-Guard)](https://github.com/ArmorerLabs/Armorer-Guard) |
 | **[LLM Guard](https://github.com/protectai/llm-guard)** | Input/output scanning for LLM applications | [![GitHub](https://img.shields.io/github/stars/protectai/llm-guard)](https://github.com/protectai/llm-guard) |
 | **[Rebuff](https://github.com/protectai/rebuff)** | Self-hardening prompt injection detector | [![GitHub](https://img.shields.io/github/stars/protectai/rebuff)](https://github.com/protectai/rebuff) |
 | **[NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)** | NVIDIA's toolkit for adding guardrails to LLM-based applications | [![GitHub](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails)](https://github.com/NVIDIA/NeMo-Guardrails) |
 | **[Lakera Guard](https://www.lakera.ai/)** | Enterprise prompt injection defense API | [Website](https://www.lakera.ai/) |
 | **[Promptfoo](https://github.com/promptfoo/promptfoo)** | LLM red teaming and evaluation framework | [![GitHub](https://img.shields.io/github/stars/promptfoo/promptfoo)](https://github.com/promptfoo/promptfoo) |
 | **[Garak](https://github.com/leondz/garak)** | LLM vulnerability scanner | [![GitHub](https://img.shields.io/github/stars/leondz/garak)](https://github.com/leondz/garak) |
+| **[IPI-Proxy](https://github.com/VulcanLab/IPI-Proxy)** | Intercepting proxy for red-teaming web-browsing agents against indirect prompt injection on live whitelisted domains | [![GitHub](https://img.shields.io/github/stars/VulcanLab/IPI-Proxy)](https://github.com/VulcanLab/IPI-Proxy) |
+| **[Tuning Engines CLI](https://github.com/cerebrixos-org/tuning-engines-cli)** | MCP server and CLI for governed agent/skill/tool access with policy checks, approvals, traces, and role-scoped registries | [![GitHub](https://img.shields.io/github/stars/cerebrixos-org/tuning-engines-cli)](https://github.com/cerebrixos-org/tuning-engines-cli) |
 | **[AgentSkillsScanner](https://github.com/sumleo/AgentSkillsScanner)** | Static analysis scanner for agent skill definitions | [![GitHub](https://img.shields.io/github/stars/sumleo/AgentSkillsScanner)](https://github.com/sumleo/AgentSkillsScanner) |
+| **[SkilLock](https://github.com/skills-lock/skil-lock)** | Behavior-pinning lockfile + capability-delta PR review for Claude Code & Codex skills; SARIF output for Code Scanning | [![GitHub](https://img.shields.io/github/stars/skills-lock/skil-lock)](https://github.com/skills-lock/skil-lock) |
+| **[agent-diff-guard](https://github.com/cubxxw/agent-diff-guard)** | Pre-push guardrail that flags high-risk coding-agent diffs such as CI/CD changes, dependency edits, test deletions, hardcoded secrets, and task-scope drift before merge | [![GitHub](https://img.shields.io/github/stars/cubxxw/agent-diff-guard)](https://github.com/cubxxw/agent-diff-guard) |
+| **[Skillid](https://github.com/dkoly/skillid)** | Policy-driven Claude Code plugin that combines skill guidance with per-tool hooks to enforce org guardrails, confirmation rules, redaction, and connector-specific access control | [![GitHub](https://img.shields.io/github/stars/dkoly/skillid)](https://github.com/dkoly/skillid) |
 | **[Agent Audit](https://arxiv.org/abs/2603.22853)** | Security analysis system for LLM agent apps: dataflow analysis, credential detection, MCP config parsing, privilege-risk checks | [Zhang et al.](https://arxiv.org/abs/2603.22853) |
 | **[mcp-sec-audit](https://arxiv.org/abs/2603.21641)** | MCP server security toolkit: static pattern matching + dynamic sandboxed fuzzing via Docker/eBPF for detecting over-privileged tool capabilities | [Huang et al.](https://arxiv.org/abs/2603.21641) |
+| **[Agent Scan](https://github.com/snyk/agent-scan)** | Snyk's scanner for local agent supply chains, covering MCP servers and skills with checks for prompt injection, tool poisoning, toxic flows, and malware-laced skill files | [![GitHub](https://img.shields.io/github/stars/snyk/agent-scan)](https://github.com/snyk/agent-scan) |
 | **[Clawvisor](https://github.com/clawvisor/clawvisor)** | AI agent gateway for purpose-based authorization, credential vaulting, and audit logging — agents declare task scope, humans approve once, Clawvisor enforces on every request without the agent ever seeing credentials | [![GitHub](https://img.shields.io/github/stars/clawvisor/clawvisor)](https://github.com/clawvisor/clawvisor) |
 
 ## Agent Skill Specifications
@@ -242,15 +272,18 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 🔗 **[Snowflake Cortex AI Escapes Sandbox and Executes Malware](https://www.promptarmor.com/resources/snowflake-ai-escapes-sandbox-and-executes-malware)** — PromptArmor, 2026. Prompt injection attack chain in Snowflake's Cortex Agent bypassed command allowlists via bash process substitution to achieve RCE; now patched.
 - 🔗 **[Confused Deputy Attacks on Autonomous AI Agents](https://labs.cloudsecurityalliance.org/research/csa-research-note-ai-agent-confused-deputy-prompt-injection/)** — Cloud Security Alliance AI Safety Initiative, 2026. Research note on prompt injection chains enabling privilege escalation and autonomous compromise in AI agent systems.
 - 🔗 **[How AI Assistants are Moving the Security Goalposts](https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/)** — Krebs on Security, 2026. AI agents as insider threats.
+- 🔗 **[Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts](https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/)** — Krebs on Security, 2026. Real-world incident where attackers socially engineered an AI account-recovery assistant into relinking target accounts, illustrating a new tool-mediated support-agent attack surface.
 - 🔗 **[Anthropic: Challenges in Red Teaming AI Systems](https://www.anthropic.com/index/challenges-in-red-teaming-ai-systems)** — Anthropic's perspective on evaluating agent safety.
 - 🔗 **[OpenAI: Safety of Advanced AI Agents](https://openai.com/research/practices-for-governing-agentic-ai-systems)** — Practices for governing agentic AI systems.
 - 🔗 **[Compromising Agents via MCP](https://invariantlabs.ai/blog/mcp-security)** — Invariant Labs deep-dive into MCP attack vectors.
 - 🔗 **[Simon Willison: Prompt Injection Explained](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/)** — Accessible introduction to prompt injection risks.
+- 🔗 **[The sorry state of skill distribution](https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/)** — Trail of Bits, 2026. Demonstrates practical bypasses against ClawHub, Cisco skill-scanner, and skills.sh, showing how malicious skills can evade current marketplace scanners via truncation, archive indirection, poisoned bytecode, and prompt-injection framing.
 - 🔗 **[TRAIL: Trusted Reasoning and AI Logging](https://arxiv.org/abs/2502.XXXXX)** — Logging framework for auditable agent execution.
 - 🔗 **[Cyber Threat Intelligence for AI Systems](https://arxiv.org/abs/2603.05068)** — AI-specific CTI framework with IoCs for supply-chain phases.
 - 🔗 **[AI Safety Has 12 Months Left](https://arxiv.org/abs/2603.XXXXX)** — Window to embed safety into infrastructure before market forces prevent it.
 - 🔗 **[LiteLLM Hack: Were You One of the 47,000?](https://futuresearch.ai/blog/litellm-hack-were-you-one-of-the-47000/)** — FutureSearch via Simon Willison, 2026. Analysis of PyPI supply-chain attack on LiteLLM: 47K downloads of exploited packages in 46 minutes, 88% of 2,337 dependent packages had unpinned versions.
 - 🔗 **[Exploiting Agentic Browsers: From False Information to Cross-Site Data Leaks](https://blog.trailofbits.com/)** — Trail of Bits, 2026. Demonstrates lack of isolation in agentic browsers enabling attacks from false information dissemination to cross-site data leaks, resurfacing decades-old web vulnerability patterns.
+- 🔗 **[OpenAI Help: Lockdown Mode](https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/)** — Simon Willison, 2026. Highlights OpenAI's new network-egress restriction mode for ChatGPT as a concrete mitigation for prompt-injection-driven data exfiltration in agentic workflows.
 
 ## Related Awesome Lists
 
