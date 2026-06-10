@@ -253,6 +253,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[Agent Audit](https://arxiv.org/abs/2603.22853)** | Security analysis system for LLM agent apps: dataflow analysis, credential detection, MCP config parsing, privilege-risk checks | [Zhang et al.](https://arxiv.org/abs/2603.22853) |
 | **[mcp-sec-audit](https://arxiv.org/abs/2603.21641)** | MCP server security toolkit: static pattern matching + dynamic sandboxed fuzzing via Docker/eBPF for detecting over-privileged tool capabilities | [Huang et al.](https://arxiv.org/abs/2603.21641) |
 | **[Agent Scan](https://github.com/snyk/agent-scan)** | Snyk's scanner for local agent supply chains, covering MCP servers and skills with checks for prompt injection, tool poisoning, toxic flows, and malware-laced skill files | [![GitHub](https://img.shields.io/github/stars/snyk/agent-scan)](https://github.com/snyk/agent-scan) |
+| **[Clawvisor](https://github.com/clawvisor/clawvisor)** | AI agent gateway for purpose-based authorization, credential vaulting, and audit logging — agents declare task scope, humans approve once, Clawvisor enforces on every request without the agent ever seeing credentials | [![GitHub](https://img.shields.io/github/stars/clawvisor/clawvisor)](https://github.com/clawvisor/clawvisor) |
 
 ## Agent Skill Specifications
 
