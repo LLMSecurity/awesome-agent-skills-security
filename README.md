@@ -257,6 +257,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[Assay Harness](https://github.com/Rul1an/Assay-Harness)** | CI gate that checks an agent's claimed tool side-effects (filesystem, network, process) against independently observed runtime evidence, classifying each claim as supported, degraded, blocked, or not-evaluable (observed support is the ceiling) | [![GitHub](https://img.shields.io/github/stars/Rul1an/Assay-Harness)](https://github.com/Rul1an/Assay-Harness) |
 | **[Agent Scan](https://github.com/snyk/agent-scan)** | Snyk's scanner for local agent supply chains, covering MCP servers and skills with checks for prompt injection, tool poisoning, toxic flows, and malware-laced skill files | [![GitHub](https://img.shields.io/github/stars/snyk/agent-scan)](https://github.com/snyk/agent-scan) |
 | **[Clawvisor](https://github.com/clawvisor/clawvisor)** | AI agent gateway for purpose-based authorization, credential vaulting, and audit logging — agents declare task scope, humans approve once, Clawvisor enforces on every request without the agent ever seeing credentials | [![GitHub](https://img.shields.io/github/stars/clawvisor/clawvisor)](https://github.com/clawvisor/clawvisor) |
+| **[trentclaw](https://github.com/trnt-ai/trent-openclaw-security-assessment)** | Security assessment skill for OpenClaw environments: scans gateway config, skill permissions, MCP trust boundaries, and plugins, and correlates them into chained attack paths with severity-ranked remediation steps | [![GitHub](https://img.shields.io/github/stars/trnt-ai/trent-openclaw-security-assessment)](https://github.com/trnt-ai/trent-openclaw-security-assessment) |
 
 ## Agent Skill Specifications
 
@@ -287,6 +288,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 🔗 **[LiteLLM Hack: Were You One of the 47,000?](https://futuresearch.ai/blog/litellm-hack-were-you-one-of-the-47000/)** — FutureSearch via Simon Willison, 2026. Analysis of PyPI supply-chain attack on LiteLLM: 47K downloads of exploited packages in 46 minutes, 88% of 2,337 dependent packages had unpinned versions.
 - 🔗 **[Exploiting Agentic Browsers: From False Information to Cross-Site Data Leaks](https://blog.trailofbits.com/)** — Trail of Bits, 2026. Demonstrates lack of isolation in agentic browsers enabling attacks from false information dissemination to cross-site data leaks, resurfacing decades-old web vulnerability patterns.
 - 🔗 **[OpenAI Help: Lockdown Mode](https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/)** — Simon Willison, 2026. Highlights OpenAI's new network-egress restriction mode for ChatGPT as a concrete mitigation for prompt-injection-driven data exfiltration in agentic workflows.
+- 🔗 **[ClawHub by the Numbers: Metadata on All 52,652 Packages](https://trent.ai/blog/clawhub-by-the-numbers/)** — Trent AI, 2026. Registry-wide metadata analysis of all 52,652 ClawHub packages finding only 22% meet a "clean" baseline; quantifies supply-chain risk across the OpenClaw skill ecosystem.
 
 ## Related Awesome Lists
 
