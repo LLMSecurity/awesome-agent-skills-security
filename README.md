@@ -77,6 +77,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Tool Poisoning & Supply Chain
 
+- 📄 **[PhantomSkill: Malicious Code Injection in Agent Skill Ecosystems](https://arxiv.org/abs/2606.19191)** — Lin & Yu, 2026. Attack framework whose VulMask technique disguises malicious code as ordinary insecure implementations inside skill auxiliary resources, activating harmful behavior only under attacker-controlled conditions to evade skill-scanning defenses.
 - 📄 **["Do Not Mention This to the User": Detecting and Understanding Malicious Agent Skills in the Wild](https://arxiv.org/abs/2602.06547)** — Liu et al., USENIX Security 2026. Large-scale analysis of 98,380 skills across two major registries identifies 157 confirmed-malicious skills (632 vulnerabilities, 13 attack techniques), characterizing two archetypes — credential-exfiltrating data thieves and decision-subverting agent hijackers — and showing that shadow features absent from public documentation mark all advanced attacks.
 - 📄 **[Harmless Yet Harmful: Neutral Prompting Attacks for Stealthy Hallucination Steering in Agent Skills](https://arxiv.org/abs/2605.29354)** — Hsu et al., 2026. Introduces neutral prompting attacks that covertly increase package hallucinations in coding agents, creating downstream software supply chain risk while evading existing skill-focused defenses.
 - 📄 **[Invisible Threats from Model Context Protocol: Generating Stealthy Injection Payload via Tree-based Adaptive Search](https://arxiv.org/abs/2603.24203)** — Shen et al., 2026. Tree-structured Injection for Payloads (TIP): black-box attack generating natural-language payloads to seize control of MCP-enabled agents; achieves >95% attack success in undefended settings and >50% against four defense approaches with an order of magnitude fewer queries than prior adaptive attacks.
@@ -110,6 +111,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Indirect Prompt Injection
 
+- 📄 **[CodeSentinel: A Three-Layer Defense Against Indirect Prompt Injection in Code Contexts](https://arxiv.org/abs/2606.19235)** — Cheng et al., 2026. Inference-time defense using Tree-sitter parsing and multi-layer analysis to detect and neutralize adversarial instructions hidden in code contexts before they reach the LLM.
 - 📄 **[AttriGuard: Defeating Indirect Prompt Injection in LLM Agents via Causal Attribution of Tool Invocations](https://arxiv.org/abs/2603.10749)** — He et al., 2026. Defense against indirect prompt injection using causal attribution to trace which tool outputs triggered suspicious agent actions.
 - 📄 **[IPI-proxy: An Intercepting Proxy for Red-Teaming Web-Browsing AI Agents Against Indirect Prompt Injection](https://arxiv.org/abs/2605.11868)** — Chen et al., 2026. Open-source proxy that rewrites live responses from whitelisted domains with 820 benchmark payloads to evaluate browser agents against realistic indirect prompt injection.
 - 📄 **[ChatInject: Abusing Chat Templates for Prompt Injection in LLM Agents](https://arxiv.org/abs/2509.22830)** — Chang et al., ICLR 2026. Formats injected payloads to mimic native chat templates (optionally primed by persuasive multi-turn dialogue) so agents elevate them to system-level trust; transfers across models and largely bypasses prompt-based defenses. [Code](https://github.com/hwanchang00/ChatInject).
@@ -158,10 +160,12 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[Talk Freely, Execute Strictly: Schema-Gated Agentic AI](https://arxiv.org/abs/2603.XXXXX)** — Schema-gated orchestration for trustworthy agent deployment in regulated domains.
 - 📄 **[ESAA-Security: Event-Sourced Architecture for Agent-Assisted Security Audits](https://arxiv.org/abs/2603.XXXXX)** — 26 tasks, 95 checks, append-only event logs for reproducible AI code audits.
 - 📄 **[Caging the Agents: A Zero Trust Security Architecture for Autonomous AI in Healthcare](https://arxiv.org/abs/2603.17419)** — Maiti, 2026. Production-deployed zero-trust architecture for 9 autonomous AI agents: gVisor kernel isolation, credential proxy sidecars, network egress allowlisting, and prompt integrity framework with untrusted content labeling. Open-source configs released.
+- 📄 **[Sovereign Execution Brokers: Enforcing Certificate-Bound Authority in Agentic Control Planes](https://arxiv.org/abs/2606.20520)** — He & Yu, 2026. Runtime enforcement layer that intercepts autonomous agent requests and verifies them against cryptographically-issued certificates before allowing infrastructure mutations, ensuring production changes cannot originate from agent reasoning alone.
 - 📄 **[A First Measurement Study on Authentication Security in Real-World Remote MCP Servers](https://arxiv.org/abs/2605.22333)** — Zhou et al., 2026. Large-scale measurement of 7,973 remote MCP servers finding widespread unauthenticated exposure and pervasive OAuth flaws, with 9 CVEs from responsible disclosure.
 
 ### Runtime Monitoring & Sandboxing
 
+- 📄 **[AI Sandboxes: A Threat Model, Taxonomy, and Measurement Framework](https://arxiv.org/abs/2606.18532)** — Singh et al., 2026. Formal framework for evaluating AI testing environments via threat models, sandbox archetypes, and measurement criteria (fidelity, controllability, observability, containment, reproducibility) across digital, embodied, and cyber-physical deployments.
 - 📄 **[AIRGuard: Guarding Agent Actions with Runtime Authority Control](https://arxiv.org/abs/2605.28914)** — Qin et al., 2026. Runtime defense layer that treats untrusted context as informative but never authorizing, normalizing tool calls and enforcing action-time authority checks to reduce tool-mediated attacks.
 - 📄 **[Operating-Layer Controls for Onchain Language-Model Agents Under Real Capital](https://arxiv.org/abs/2604.26091)** — Barton et al., 2026. Production study of 3,505 real-capital agents showing that agent reliability depends on operating-layer controls like prompt compilation, typed controls, policy validation, execution guards, and trace-level observability.
 - 📄 **[Governing What You Cannot Observe: Adaptive Runtime Governance for Autonomous AI Agents](https://arxiv.org/abs/2604.24686)** — Marin and Chaudhary, 2026. Proposes adaptive runtime governance based on bounding unobserved risk as agent behavior drifts after authorization.
@@ -183,6 +187,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 ### Input/Output Validation
 
 - 📄 **[AgentVisor: Defending LLM Agents Against Prompt Injection via Semantic Virtualization](https://arxiv.org/abs/2604.24118)** — Ying et al., 2026. Defends tool-using agents by semantically virtualizing untrusted external content to reduce prompt injection influence on privileged actions.
+- 📄 **[Analyzing Defensive Misdirection Against Model-Guided Automated Attacks on Agentic AI Systems](https://arxiv.org/abs/2606.20470)** — Soosahabi & Namsani, 2026. Proposes CMPE, a defense that replaces predictable refusals with misleading-but-safe outputs to degrade automated jailbreak attacks by denying attackers a reliable success signal.
 - 📄 **[StruQ: Defending Against Prompt Injection with Structured Queries](https://arxiv.org/abs/2402.06363)** — Separates prompts from data to prevent injection.
 - 📄 **[Towards Provably Unbiased LLM Judges via Bias-Bounded Evaluation](https://arxiv.org/abs/2603.05485)** — Formal guarantees for reducing bias in LLM-as-judge systems.
 - 📄 **[Judge Reliability Harness: Stress Testing LLM Judges](https://arxiv.org/abs/2603.05399)** — No evaluated judge is uniformly reliable.
@@ -190,6 +195,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 ### Formal Verification & Analysis
 
+- 📄 **[Efficient and Sound Probabilistic Verification for AI Agents](https://arxiv.org/abs/2606.20510)** — Solko-Breslin et al., 2026. Verification framework using distributionally robust optimization to compute sound upper bounds on the probability of agent policy violations under uncertainty, without independence assumptions between predicates.
 - 📄 **[Agentics 2.0: Logical Transduction Algebra for Agentic Data Workflows](https://arxiv.org/abs/2603.04241)** — Formalizes LLM inference as typed semantic transformations with algebraic composition.
 - 📄 **[Knowledge Divergence and the Value of Debate for Scalable Oversight](https://arxiv.org/abs/2603.XXXXX)** — Formal framework for choosing oversight mechanisms.
 
