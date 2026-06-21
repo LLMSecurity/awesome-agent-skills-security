@@ -64,6 +64,8 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[AgenticCyOps: Securing Multi-Agentic AI Integration in Enterprise Cyber Operations](https://arxiv.org/abs/2603.09134)** — Mitra et al., 2026. Holistic architectural security framework decomposing attack surfaces across component, coordination, and ecosystem layers of enterprise multi-agent systems.
 - 📄 **[MCP-in-SoS: Risk Assessment Framework for Open-Source MCP Servers](https://arxiv.org/abs/2603.10194)** — Kumar et al., 2026. System-of-systems risk assessment framework for evaluating security risks of open-source MCP server deployments in production agent systems.
 - 📄 **[SoK: The Attack Surface of Agentic AI — Tools, and Autonomy](https://arxiv.org/abs/2603.22928)** — Dehghantanha & Homayoun, 2026. Systematization mapping trust boundaries and security risks of agentic LLM systems; proposes taxonomy spanning prompt injection, RAG poisoning, tool exploits, and multi-agent threats with metrics like Unsafe Action Rate and Privilege Escalation Distance.
+- 📄 **[Toward Secure LLM Agents: Threat Surfaces, Attacks, Defenses, and Evaluation](https://arxiv.org/abs/2606.10749)** — Ling et al., 2026. Systems-oriented synthesis of 247 papers organizing LLM agent security around information flow, delegated authority, and persistent state, identifying prompt injection and tool-mediated hijacking as dominant threats while flagging emerging state-corruption and multi-agent propagation risks.
+- 📄 **[Data Agents Under Attack: Vulnerabilities in LLM-Driven Analytical Systems](https://arxiv.org/abs/2606.08661)** — Wang et al., 2026. Systematic security study of LLM data agents identifying eight risks across interpretation, execution, and policy layers plus an attack taxonomy of fourteen techniques, demonstrating substantial gaps across six open-source and production analytics platforms.
 
 ## Attack Research
 
@@ -74,6 +76,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated LLM Agents](https://arxiv.org/abs/2403.02691)** — Zhan et al., ACL 2024. 1,054 test cases, 17 tools, two attack types (direct harm, data stealing).
 - 📄 **[Automatic and Universal Prompt Injection Attacks against Large Language Models](https://arxiv.org/abs/2403.04957)** — Liu et al., 2024. Automated generation of injection attacks.
 - 📄 **[WIPI: A New Web Threat for LLM-Driven AI Agents](https://arxiv.org/abs/2402.16965)** — Liu et al., 2024. Web-based indirect prompt injection targeting browsing agents.
+- 📄 **[GitInject: Real-World Prompt Injection Attacks in AI-Powered CI/CD Pipelines](https://arxiv.org/abs/2606.09935)** — Isbarov et al., 2026. Evaluates prompt injection in live GitHub workflows by provisioning ephemeral repositories and triggering real workflow runs, documenting eleven attacks across four AI providers that compromise credential handling and repository permissions.
 
 ### Tool Poisoning & Supply Chain
 
@@ -162,6 +165,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[Caging the Agents: A Zero Trust Security Architecture for Autonomous AI in Healthcare](https://arxiv.org/abs/2603.17419)** — Maiti, 2026. Production-deployed zero-trust architecture for 9 autonomous AI agents: gVisor kernel isolation, credential proxy sidecars, network egress allowlisting, and prompt integrity framework with untrusted content labeling. Open-source configs released.
 - 📄 **[Sovereign Execution Brokers: Enforcing Certificate-Bound Authority in Agentic Control Planes](https://arxiv.org/abs/2606.20520)** — He & Yu, 2026. Runtime enforcement layer that intercepts autonomous agent requests and verifies them against cryptographically-issued certificates before allowing infrastructure mutations, ensuring production changes cannot originate from agent reasoning alone.
 - 📄 **[A First Measurement Study on Authentication Security in Real-World Remote MCP Servers](https://arxiv.org/abs/2605.22333)** — Zhou et al., 2026. Large-scale measurement of 7,973 remote MCP servers finding widespread unauthenticated exposure and pervasive OAuth flaws, with 9 CVEs from responsible disclosure.
+- 📄 **[SecureClaw: Clawing Back Control of LLM Agents](https://arxiv.org/abs/2606.09549)** — Ma et al., 2026. Dual-boundary security architecture placing authorization at the effect sink and plaintext confinement at the read boundary, using opaque handles and a PREVIEW→COMMIT protocol to block unauthorized external actions and sensitive-data leakage in tool-using agents.
 
 ### Runtime Monitoring & Sandboxing
 
@@ -218,6 +222,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[VeriGrey: Greybox Agent Validation](https://arxiv.org/abs/2603.17639)** — Zhang et al., 2026. Greybox security testing using tool-invocation sequences as feedback and mutational prompt fuzzing; 33% more effective than black-box on AgentDojo, discovers prompt injection scenarios missed by black-box in Gemini CLI and OpenClaw.
 - 📄 **[LAAF: Logic-layer Automated Attack Framework for Agentic LLM Systems](https://arxiv.org/abs/2603.17239)** — Atta et al., 2026. First automated red-teaming framework combining 49-technique LPCI taxonomy with stage-sequential seed escalation; 84% mean aggregate breakthrough rate across five production LLM platforms.
 - 📄 **[VIPER-MCP: Detecting and Exploiting Taint-Style Vulnerabilities in Model Context Protocol Servers](https://arxiv.org/abs/2605.21392)** — Sun et al., 2026. End-to-end auditing framework that statically localizes vulnerable MCP tool handlers and dynamically evolves proof-of-concept prompts, uncovering 106 confirmed 0-days and 67 CVEs across open-source MCP servers.
+- 📄 **[SafeClawBench: Separating Semantic, Audit-Evidence, and Sandbox Harm in Tool-Using LLM Agents](https://arxiv.org/abs/2606.18356)** — Tian et al., 2026. Staged benchmark of 600 adversarial tasks distinguishing three agent failure modes — semantic acceptance, auditable harm evidence, and executable state changes — showing these endpoints capture different vulnerabilities across models and prompt policies.
 
 ## Benchmarks & Datasets
 
@@ -229,6 +234,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[ToolSword](https://github.com/Junjie-Ye/ToolSword)** | Tool learning safety | 6 scenarios, 3 stages | [Ye et al.](https://arxiv.org/abs/2402.10753) |
 | **[AgentDyn](https://arxiv.org/abs/2602.03117)** | Dynamic prompt injection | Open-ended, extensible | [Li et al.](https://arxiv.org/abs/2602.03117) |
 | **[SkillSafetyBench](https://arxiv.org/abs/2605.12015)** | Skill-mediated agent safety | 155 cases, 47 tasks | [Jin et al.](https://arxiv.org/abs/2605.12015) |
+| **[SafeClawBench](https://arxiv.org/abs/2606.18356)** | Staged harm in tool-using agents | 600 adversarial tasks | [Tian et al.](https://arxiv.org/abs/2606.18356) |
 | **[TAB](https://arxiv.org/abs/2605.12233)** | Selective cue following in terminal agents | 89 terminal tasks | [Mavali et al.](https://arxiv.org/abs/2605.12233) |
 | **[Skill-Inject](https://www.skill-inject.com/)** | Skill file attacks | Multi-scenario | [Schmotz et al.](https://arxiv.org/abs/2602.20156) |
 | **[NAAMSE](https://arxiv.org/abs/2602.07391)** | Evolutionary agent security eval | Adaptive red-teaming | [Pai et al.](https://arxiv.org/abs/2602.07391) |
