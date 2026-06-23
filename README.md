@@ -78,6 +78,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[Automatic and Universal Prompt Injection Attacks against Large Language Models](https://arxiv.org/abs/2403.04957)** — Liu et al., 2024. Automated generation of injection attacks.
 - 📄 **[WIPI: A New Web Threat for LLM-Driven AI Agents](https://arxiv.org/abs/2402.16965)** — Liu et al., 2024. Web-based indirect prompt injection targeting browsing agents.
 - 📄 **[GitInject: Real-World Prompt Injection Attacks in AI-Powered CI/CD Pipelines](https://arxiv.org/abs/2606.09935)** — Isbarov et al., 2026. Evaluates prompt injection in live GitHub workflows by provisioning ephemeral repositories and triggering real workflow runs, documenting eleven attacks across four AI providers that compromise credential handling and repository permissions.
+- 📄 **[Prompt Injection as Role Confusion](https://arxiv.org/abs/2603.12277)** — Ye, Cui & Hadfield-Menell, ICML 2026. Shows prompt injection succeeds because LLMs infer privilege from unreliable stylistic cues rather than structural role tags; "destyling" untrusted text to look less like internal formats drops attack success from 61% to 10%, framing injection defense as perpetual whack-a-mole absent genuine role perception.
 
 ### Tool Poisoning & Supply Chain
 
@@ -116,6 +117,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[You Told Me to Do It: Measuring Instructional Text-induced Private Data Leakage in LLM Agents](https://arxiv.org/abs/2603.11862)** — Kao et al., 2026. Identifies the Trusted Executor Dilemma where high-privilege agents execute adversarial README instructions at up to 85% success rate; 0% human detection rate across 15 participants.
 - 📄 **[An Evaluation of Data Leakage Risks in Tool-Using LLM Agents in Realistic Scenarios](https://arxiv.org/abs/2606.17114)** — Baek et al., 2026. Joint Singapore–Korea AI Safety Institute study showing tool-using agents leak sensitive information even under benign, non-adversarial user requests, extending leakage analysis beyond prompt-injection and jailbreak exfiltration.
 - 📄 **[Differential Privacy in Generative AI Agents: Analysis and Optimal Tradeoffs](https://arxiv.org/abs/2603.17902)** — Yang & Zhu, 2026. Probabilistic framework for analyzing privacy leakage in AI agents via differential privacy, deriving token-level and message-level bounds relating leakage to temperature and message length.
+- 📄 **[Capable but Careless: Do Computer-Use Agents Follow Contextual Integrity?](https://arxiv.org/abs/2606.23189)** — Goel & Gurevych, 2026. Evaluates whether computer-use agents respect contextual integrity when handling personal information across applications, finding most leak sensitive data through visual co-location of sensitive items, oversharing of personal state, and sending content to the wrong recipients.
 
 ### Indirect Prompt Injection
 
