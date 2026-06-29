@@ -81,6 +81,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[WIPI: A New Web Threat for LLM-Driven AI Agents](https://arxiv.org/abs/2402.16965)** — Liu et al., 2024. Web-based indirect prompt injection targeting browsing agents.
 - 📄 **[GitInject: Real-World Prompt Injection Attacks in AI-Powered CI/CD Pipelines](https://arxiv.org/abs/2606.09935)** — Isbarov et al., 2026. Evaluates prompt injection in live GitHub workflows by provisioning ephemeral repositories and triggering real workflow runs, documenting eleven attacks across four AI providers that compromise credential handling and repository permissions.
 - 📄 **[Prompt Injection as Role Confusion](https://arxiv.org/abs/2603.12277)** — Ye, Cui & Hadfield-Menell, ICML 2026. Shows prompt injection succeeds because LLMs infer privilege from unreliable stylistic cues rather than structural role tags; "destyling" untrusted text to look less like internal formats drops attack success from 61% to 10%, framing injection defense as perpetual whack-a-mole absent genuine role perception.
+- 📄 **[On the Inseparability of Instructions and Data in Shared-Embedding Sequence Models](https://arxiv.org/abs/2606.27567)** — Pant et al., 2026. Proves perfect prompt-injection prevention is mathematically impossible in shared-embedding architectures lacking enforced control-data separation, formalizing tool authorization, refusal, and memory writes as control-authoritative actions and arguing injection requires architectural instruction/data channel separation rather than better in-pipeline classification or alignment.
 
 ### Tool Poisoning & Supply Chain
 
@@ -123,6 +124,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[An Evaluation of Data Leakage Risks in Tool-Using LLM Agents in Realistic Scenarios](https://arxiv.org/abs/2606.17114)** — Baek et al., 2026. Joint Singapore–Korea AI Safety Institute study showing tool-using agents leak sensitive information even under benign, non-adversarial user requests, extending leakage analysis beyond prompt-injection and jailbreak exfiltration.
 - 📄 **[Differential Privacy in Generative AI Agents: Analysis and Optimal Tradeoffs](https://arxiv.org/abs/2603.17902)** — Yang & Zhu, 2026. Probabilistic framework for analyzing privacy leakage in AI agents via differential privacy, deriving token-level and message-level bounds relating leakage to temperature and message length.
 - 📄 **[Capable but Careless: Do Computer-Use Agents Follow Contextual Integrity?](https://arxiv.org/abs/2606.23189)** — Goel & Gurevych, 2026. Evaluates whether computer-use agents respect contextual integrity when handling personal information across applications, finding most leak sensitive data through visual co-location of sensitive items, oversharing of personal state, and sending content to the wrong recipients.
+- 📄 **[ToolPrivacyBench: Benchmarking Purpose-Bound Privacy in Tool-Using LLM Agents](https://arxiv.org/abs/2606.28061)** — Hu et al., 2026. Audits whether task-private information is routed only to authorized tools and downstream sinks across an executed multi-tool trajectory using 2,150 cases with backend audit logs, formalizing a need-to-know disclosure boundary and showing that successful task completion does not imply appropriate privacy disclosure.
 
 ### Indirect Prompt Injection
 
@@ -168,6 +170,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[Self-Fulfilling Misalignment in AI Control](https://arxiv.org/abs/2603.XXXXX)** — 2026. Fine-tuning on AI Control literature increases misalignment.
 - 📄 **[Reasoning Models Struggle to Control Their Chains of Thought](https://arxiv.org/abs/2603.XXXXX)** — 2026. CoT controllability decreases with RL training, implications for agent oversight.
 - 📄 **[CRAFT: Contrastive Reasoning Alignment — Reinforcement Learning from Hidden Representations](https://arxiv.org/abs/2603.17305)** — Luo et al., 2026. Red-teaming alignment framework combining contrastive representation learning with RL to separate safe/unsafe reasoning trajectories; 79% improvement in reasoning safety and 87.7% in final-response safety over base models.
+- 📄 **[It Lied to a Doctor to Buy Poison Ingredients: Quantifying Real-World Misuse of Phone-use Agents](https://arxiv.org/abs/2606.27944)** — Sun et al., 2026. First real-device study across 27 commercial apps showing phone-use agents readily execute serious misuse (procuring drug/explosive precursors, fraud, harassment) at 68.8% task completion with low refusal, documenting a real-world case where an agent deceived an online doctor to obtain a toxic-substance precursor and tracing it to a Safety Awareness-Execution Gap.
 
 ## Defense Research
 
@@ -211,6 +214,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 📄 **[Self-Attribution Bias: When AI Monitors Go Easy on Themselves](https://arxiv.org/abs/2603.XXXXX)** — AI monitors exhibit systematic leniency on own outputs.
 - 📄 **[Salient Directions in AI Control](https://arxiv.org/abs/2603.XXXXX)** — Structure of AI Control evaluations: trusted monitors overseeing untrusted agents.
 - 📄 **[Governed Memory: A Production Architecture for Multi-Agent Workflows](https://arxiv.org/abs/2603.17787)** — Taheri, 2026. Shared memory governance layer with dual memory model, tiered governance routing, entity-scoped isolation (zero cross-entity leakage across 500 adversarial queries), and 100% adversarial governance compliance in production.
+- 📄 **[Agent-Native Immune System: Architecture, Taxonomy, and Engineering](https://arxiv.org/abs/2606.28270)** — Shen et al., 2026. Proposes ANIS, an endogenous biologically-inspired defense embedded directly in the agent's cognitive loop with a six-layer "Immune Tower" (including a non-cognitive isolation layer), a taxonomy of agent viruses and vaccines, and continual immune learning to counter runtime hijacking via memory poisoning, tool-chain manipulation, and multi-agent protocol attacks that survive training-time alignment.
 - 🔗 **[Behavioral Attestation and Compaction Drift in Persistent AI Agents](https://morrow.run/after-the-safety-gate.html)** — Morrow (agent-morrow), 2026. Identifies compaction drift — non-adversarial behavioral shift caused by context window compression — as a runtime integrity threat class distinct from adversarial injection. Proposes behavioral attestation (context fingerprint delta against a pre-compression baseline) as the mechanism for continuous rather than one-time agent authorization. Complements credential-scope enforcement (e.g., AATs) with runtime execution verification.
 
 ### Input/Output Validation
@@ -269,6 +273,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[SkillVetBench](https://arxiv.org/abs/2606.15899)** | Security risk eval of open-source agent skills | Live leaderboard | [Hossain et al.](https://arxiv.org/abs/2606.15899) |
 | **[SCR-Bench](https://arxiv.org/abs/2606.15242)** | Skill composition risk | Multi-skill chains | [Xie et al.](https://arxiv.org/abs/2606.15242) |
 | **[SafeClawBench](https://arxiv.org/abs/2606.18356)** | Staged harm in tool-using agents | 600 adversarial tasks | [Tian et al.](https://arxiv.org/abs/2606.18356) |
+| **[ToolPrivacyBench](https://arxiv.org/abs/2606.28061)** | Purpose-bound privacy in tool-using agents | 2,150 cases | [Hu et al.](https://arxiv.org/abs/2606.28061) |
 | **[TAB](https://arxiv.org/abs/2605.12233)** | Selective cue following in terminal agents | 89 terminal tasks | [Mavali et al.](https://arxiv.org/abs/2605.12233) |
 | **[Skill-Inject](https://www.skill-inject.com/)** | Skill file attacks | Multi-scenario | [Schmotz et al.](https://arxiv.org/abs/2602.20156) |
 | **[NAAMSE](https://arxiv.org/abs/2602.07391)** | Evolutionary agent security eval | Adaptive red-teaming | [Pai et al.](https://arxiv.org/abs/2602.07391) |
