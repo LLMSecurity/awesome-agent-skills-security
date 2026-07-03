@@ -341,6 +341,8 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[trentclaw](https://github.com/trnt-ai/trent-openclaw-security-assessment)** | Security assessment skill for OpenClaw environments: scans gateway config, skill permissions, MCP trust boundaries, and plugins, and correlates them into chained attack paths with severity-ranked remediation steps | [![GitHub](https://img.shields.io/github/stars/trnt-ai/trent-openclaw-security-assessment)](https://github.com/trnt-ai/trent-openclaw-security-assessment) |
 | **[Nobulex](https://github.com/arian-gogani/nobulex)** | Trust Capital scoring layer for AI agents: bilateral Ed25519 receipts (pre- and post-execution signatures), content-addressed via action_ref and hash-chained per RFC 8785, that accumulate into a published 300-850 reputation score gating agent autonomy. CTEF v0.3.2 14/14 conformance. Python + TypeScript SDKs. Receipt-signing approach merged into Microsoft AGT. | [![GitHub](https://img.shields.io/github/stars/arian-gogani/nobulex)](https://github.com/arian-gogani/nobulex) |
 
+| **[agent-guard](https://github.com/yui-stingray/agent-guard)** | Vendor-neutral static evidence and conformance gate for agent-maintained repos: scans agent instruction files, skill directories, and MCP configs, pins context digests, detects policy/workflow drift, and emits deterministic sanitized evidence packs under a schema-frozen contract (SARIF, pre-commit, GitHub Action) | [![GitHub](https://img.shields.io/github/stars/yui-stingray/agent-guard)](https://github.com/yui-stingray/agent-guard) |
+
 ## Agent Skill Specifications
 
 | Specification | Org | Focus |
