@@ -331,6 +331,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[AgentHarm](https://arxiv.org/abs/2410.09024)** | Agent misuse | 110 behaviors, 440 variants | [Andriushchenko et al.](https://arxiv.org/abs/2410.09024) |
 | **[SkillGuard Dataset](https://github.com/LLMSecurity/skillguard)** | Malicious skill detection | 157 malicious skills | [Liu et al.](https://github.com/LLMSecurity/skillguard) |
 | **[WIPI](https://arxiv.org/abs/2402.16965)** | Web-based indirect injection | Multi-scenario | [Liu et al.](https://arxiv.org/abs/2402.16965) |
+| **[MemoryStackBench](https://github.com/aetna000/MemoryStackBench)** | Agent memory safety and auditability | 5 scenarios, 33 checks | [Repository](https://github.com/aetna000/MemoryStackBench) |
 
 ## Tools & Frameworks
 
