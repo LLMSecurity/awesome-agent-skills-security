@@ -350,6 +350,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[AgentHarm](https://arxiv.org/abs/2410.09024)** | Agent misuse | 110 behaviors, 440 variants | [Andriushchenko et al.](https://arxiv.org/abs/2410.09024) |
 | **[SkillGuard Dataset](https://github.com/LLMSecurity/skillguard)** | Malicious skill detection | 157 malicious skills | [Liu et al.](https://github.com/LLMSecurity/skillguard) |
 | **[WIPI](https://arxiv.org/abs/2402.16965)** | Web-based indirect injection | Multi-scenario | [Liu et al.](https://arxiv.org/abs/2402.16965) |
+| **[mcp-defense-bench](https://github.com/Gowthaman90/mcp-defense-bench)** | MCP defensive-proxy attack-surface coverage | 24 vectors, 35 cases | [Arumugam](https://doi.org/10.5281/zenodo.21346206) |
 
 ## Tools & Frameworks
 
