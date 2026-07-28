@@ -381,6 +381,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[IssueTrojanBench](https://arxiv.org/abs/2607.20759)** | Malicious issue requests vs. coding agents | 4 attack categories, 6 vectors | [Singh et al.](https://arxiv.org/abs/2607.20759) |
 | **[OpenSkillRisk](https://arxiv.org/abs/2607.20121)** | Agent safety with risky third-party skills | 263 skills, 7 categories | [Liu et al.](https://arxiv.org/abs/2607.20121) |
 | **[AIP-Bench](https://arxiv.org/abs/2607.21824)** | Agentic commerce protocol-level security | 3 platforms, 33 vulns | [Louck](https://arxiv.org/abs/2607.21824) |
+| **[ClawBench](https://claw-bench.com/)** | Real-world web-agent task execution | 303 live tasks across 144 websites | [paper and code](https://github.com/reacher-z/ClawBench) |
 
 ## Tools & Frameworks
 
