@@ -461,6 +461,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[HarnessSafe](https://arxiv.org/abs/2608.06984)** | Safety across persistent carriers in agent harnesses | 328 cases, 7 carrier families | [Zhang et al.](https://arxiv.org/abs/2608.06984) |
 | **[ToolHazard](https://arxiv.org/abs/2608.11878)** | Scalable synthesis of adversarial tool environments for indirect prompt injection | Expandable via seed domains + compute | [Mou et al.](https://arxiv.org/abs/2608.11878) |
 | **[ATOBench](https://arxiv.org/abs/2608.12996)** | Pentest-agent vulnerability verification under deceptive target evidence | Runtime response transformations | [Chen et al.](https://arxiv.org/abs/2608.12996) |
+| **[agent-runtime-integrity-bench](https://github.com/tonydzi/agent-runtime-integrity-bench)** | Silent state-integrity violations in agent runtimes: loss/duplication under concurrent writes and redelivery | 4 invariant checks, 4 session backends | [Dziatkovskii](https://github.com/tonydzi/agent-runtime-integrity-bench/blob/main/CITATION.cff) |
 
 ## Tools & Frameworks
 
