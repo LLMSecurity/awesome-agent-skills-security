@@ -436,6 +436,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 
 | Benchmark | Focus | Size | Paper |
 |-----------|-------|------|-------|
+| **[ClawBench](https://github.com/reacher-z/ClawBench)** | Safe real-world web-agent evaluation | 153 tasks, 144 production websites | [Zhang et al.](https://arxiv.org/abs/2604.08523) |
 | **[ASB](https://github.com/agiresearch/ASB)** | Comprehensive agent security | 10 agents, 398 envs | [Zhang et al.](https://arxiv.org/abs/2410.02644) |
 | **[InjecAgent](https://github.com/uiuc-kang-lab/InjecAgent)** | Indirect prompt injection | 1,054 test cases | [Zhan et al.](https://arxiv.org/abs/2403.02691) |
 | **[R-Judge](https://github.com/Lordog/R-Judge)** | Safety risk awareness | 162 records, 27 scenarios | [Yuan et al.](https://arxiv.org/abs/2401.10019) |
