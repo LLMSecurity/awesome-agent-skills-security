@@ -546,6 +546,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - **[awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)** — ML applied to cybersecurity.
 - **[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** — MCP server ecosystem (attack surface reference).
 - **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** — AI agent frameworks and projects.
+- **[awesome-workbuddy](https://github.com/sandbaseai/awesome-workbuddy)** — Bilingual, safety-reviewed resources for WorkBuddy/CodeBuddy Skills, MCP servers, workflows, and ecosystem projects.
 
 ## Contributing
 
