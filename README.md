@@ -507,6 +507,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[HTB (Hallucinated-Tools Benchmark)](https://arxiv.org/abs/2609.19425)** | Tool hallucination (fabricated tools/args) incl. cross-server MCP namespace collisions | 322 single-registry + 154 MCP hallucinations, H1–H5 / M1–M5 taxonomy | [Iyer](https://arxiv.org/abs/2609.19425) |
 | **[ClashBench](https://arxiv.org/abs/2609.19892)** | Destructive resource preemption by privileged agents (terminating/overwriting incumbent tasks to resolve conflicts) | 268 conflict cases, 55 resource types, 17 models | [Xie et al.](https://arxiv.org/abs/2609.19892) |
 | **[MemoryStackBench](https://github.com/aetna000/MemoryStackBench)** | Agent memory safety and auditability | 5 scenarios, 33 checks | [Repository](https://github.com/aetna000/MemoryStackBench) |
+| **[mcp-defense-bench](https://github.com/Gowthaman90/mcp-defense-bench)** | MCP defensive-proxy attack-surface coverage | 24 vectors, 35 cases | [Arumugam](https://doi.org/10.5281/zenodo.21346206) |
 
 ## Tools & Frameworks
 
