@@ -496,7 +496,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[Skill-Inject](https://www.skill-inject.com/)** | Skill file attacks | Multi-scenario | [Schmotz et al.](https://arxiv.org/abs/2602.20156) |
 | **[NAAMSE](https://arxiv.org/abs/2602.07391)** | Evolutionary agent security eval | Adaptive red-teaming | [Pai et al.](https://arxiv.org/abs/2602.07391) |
 | **[AgentHarm](https://arxiv.org/abs/2410.09024)** | Agent misuse | 110 behaviors, 440 variants | [Andriushchenko et al.](https://arxiv.org/abs/2410.09024) |
-| **[OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault)** | Shipped skill catalogues, tool schemas and system prompts as sent | 110 artifacts, 35 products, 16 tool-schema files | [Capture table](https://github.com/Continuum-AI-Corp/OrcaPromptVault/blob/main/docs/CAPTURES.md) |
+| **[OrcaPromptVault](https://github.com/Continuum-AI-Corp/OrcaPromptVault)** | Shipped skill catalogues, tool schemas and system prompts as sent | 119 artifacts, 43 products, 16 tool-schema files | [Capture table](https://github.com/Continuum-AI-Corp/OrcaPromptVault/blob/main/docs/CAPTURES.md) |
 | **[SkillGuard Dataset](https://github.com/LLMSecurity/skillguard)** | Malicious skill detection | 157 malicious skills | [Liu et al.](https://github.com/LLMSecurity/skillguard) |
 | **[WIPI](https://arxiv.org/abs/2402.16965)** | Web-based indirect injection | Multi-scenario | [Liu et al.](https://arxiv.org/abs/2402.16965) |
 | **[SkillAtlas](https://arxiv.org/abs/2609.13353)** | Attack trace library for agent skills | 3,014 cases, 6,589 traces | [Tian et al.](https://arxiv.org/abs/2609.13353) |
