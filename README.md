@@ -630,6 +630,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - **[awesome-ml-for-cybersecurity](https://github.com/jivoi/awesome-ml-for-cybersecurity)** — ML applied to cybersecurity.
 - **[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** — MCP server ecosystem (attack surface reference).
 - **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** — AI agent frameworks and projects.
+- **[awesome-bug-bounty](https://github.com/YangTech-gh/Awesome-Bug-Bounty)** — Agent skill for authorized bug-bounty methodology: recon, vuln playbooks, payloads, and reporting guidance.
 
 ## Contributing
 
