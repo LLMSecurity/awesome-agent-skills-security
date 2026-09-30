@@ -609,6 +609,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[Skill-audit](https://github.com/AgentPostmortem/Skill-audit)** | Static scanner for Claude/agent skills: flags prompt injection, dangerous shell, secret access, and exfiltration before install; 31 rules with SARIF output | [![GitHub](https://img.shields.io/github/stars/AgentPostmortem/Skill-audit)](https://github.com/AgentPostmortem/Skill-audit) |
 | **[AgentWarden](https://github.com/juangh123/AgentWarden)** | Static security gate for MCP configurations and AI agent skills, with SHA-256 integrity locking, Ed25519 publisher verification, SARIF output, and CI exit codes | [![GitHub](https://img.shields.io/github/stars/juangh123/AgentWarden)](https://github.com/juangh123/AgentWarden) |
 | **[AVE (Agentic Vulnerability Enumeration)](https://github.com/aveproject/ave)** | Open standard and behavioral vulnerability taxonomy for agentic AI components (MCP servers, agent skills, LLM plugins), stable IDs scored with OWASP's AIVSS framework | [![GitHub](https://img.shields.io/github/stars/aveproject/ave)](https://github.com/aveproject/ave) |
+| **[Ziran](https://github.com/taoq-ai/ziran)** | Security testing framework for AI agents that models tools as a graph to find dangerous tool chains, execution-level side effects, and multi-phase exploits | [![GitHub](https://img.shields.io/github/stars/taoq-ai/ziran)](https://github.com/taoq-ai/ziran) |
 
 ## Agent Skill Specifications
 
