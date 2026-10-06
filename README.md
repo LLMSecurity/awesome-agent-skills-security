@@ -594,6 +594,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[ACE](https://arxiv.org/abs/2609.28915)** | Cross-layer (kernel syscall + application) evidence for agent security | 4,047 paired sessions, 17 threat models | [King et al.](https://arxiv.org/abs/2609.28915) |
 
 ## Tools & Frameworks
+- [samvallad33/vestige](https://github.com/samvallad33/vestige) - Operator: deterministic pre-execution gate that parses agent terminal commands like a shell and blocks destructive ones before they run (46/46 on an adapted GuardFall corpus); stdlib-only, free Operator Lite on npm, AGPL-3.0. Strata: hash-chained, tamper-evident receipted memory for post-incident forensics — which write poisoned an agent, and chain of custody.
 
 | Tool | Description | Link |
 |------|-------------|------|
