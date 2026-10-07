@@ -598,6 +598,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[ACE](https://arxiv.org/abs/2609.28915)** | Cross-layer (kernel syscall + application) evidence for agent security | 4,047 paired sessions, 17 threat models | [King et al.](https://arxiv.org/abs/2609.28915) |
 
 ## Tools & Frameworks
+- [samvallad33/vestige](https://github.com/samvallad33/vestige) - Operator reads an agent's terminal command the way a shell would and stops the destructive ones before they run. It passes all 46 cases of an adapted GuardFall corpus, and the free Lite tier is on npm. Strata keeps agent memory on a hash-chained log, so after a poisoning you can point at the exact write that did it. AGPL-3.0.
 
 | Tool | Description | Link |
 |------|-------------|------|
