@@ -596,6 +596,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[APort Vault](https://huggingface.co/datasets/aporthq/vault-benchmark-v1)** | Payment authorization in tool-using agents (deterministic pre-action check vs. model-alone) | 4,371 human CTF attacks, 14 models, 225,964 evals | [Uchibeke](https://arxiv.org/abs/2609.22076) |
 | **[EvasionBench](https://arxiv.org/abs/2609.30217)** | Instrumental runtime-monitor evasion under ordinary task pressure | 50 task-policy pairs | [Schmotz et al.](https://arxiv.org/abs/2609.30217) |
 | **[ACE](https://arxiv.org/abs/2609.28915)** | Cross-layer (kernel syscall + application) evidence for agent security | 4,047 paired sessions, 17 threat models | [King et al.](https://arxiv.org/abs/2609.28915) |
+| **[Orca AI Incident Archive](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive)** | Real-world agent security incidents (MCP, tool/skill supply chain, indirect prompt injection, rogue tool actions), each flagged confirmed victim vs. research demo | 365 records, 625 source URLs | [Repository](https://github.com/Continuum-AI-Corp/Orca-AI-Incident-Archive) |
 
 ## Tools & Frameworks
 - [samvallad33/vestige](https://github.com/samvallad33/vestige) - Operator reads an agent's terminal command the way a shell would and stops the destructive ones before they run. It passes all 46 cases of an adapted GuardFall corpus, and the free Lite tier is on npm. Strata keeps agent memory on a hash-chained log, so after a poisoning you can point at the exact write that did it. AGPL-3.0.
