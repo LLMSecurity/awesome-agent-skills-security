@@ -706,6 +706,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 - 🔗 **[Anthropic: Challenges in Red Teaming AI Systems](https://www.anthropic.com/index/challenges-in-red-teaming-ai-systems)** — Anthropic's perspective on evaluating agent safety.
 - 🔗 **[OpenAI: Safety of Advanced AI Agents](https://openai.com/research/practices-for-governing-agentic-ai-systems)** — Practices for governing agentic AI systems.
 - 🔗 **[Compromising Agents via MCP](https://invariantlabs.ai/blog/mcp-security)** — Invariant Labs deep-dive into MCP attack vectors.
+- 🔗 **[Fix MCP OAuth 401 and 403 Errors](https://praesidia.ai/blog/mcp-oauth-troubleshooting-401-403)** — Praesidia, 2026. Technical guide distinguishing token and scope failures with a local synthetic HTTP fixture; the fixture is not an MCP server or OAuth implementation.
 - 🔗 **[Simon Willison: Prompt Injection Explained](https://simonwillison.net/2023/Apr/14/worst-that-can-happen/)** — Accessible introduction to prompt injection risks.
 - 🔗 **[The sorry state of skill distribution](https://blog.trailofbits.com/2026/06/03/the-sorry-state-of-skill-distribution/)** — Trail of Bits, 2026. Demonstrates practical bypasses against ClawHub, Cisco skill-scanner, and skills.sh, showing how malicious skills can evade current marketplace scanners via truncation, archive indirection, poisoned bytecode, and prompt-injection framing.
 - 🔗 **[Cyber Threat Intelligence for AI Systems](https://arxiv.org/abs/2603.05068)** — AI-specific CTI framework with IoCs for supply-chain phases.
