@@ -685,6 +685,8 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[node9](https://github.com/node9-ai/node9-proxy)** | Security and governance layer that checks every tool call from coding agents and MCP servers before it runs: credential jail, secret and PII detection, human approval for risky actions, MCP tool definition pinning, SHA-256 pinning of installed skills and plugins, and one audit record across agents | [![GitHub](https://img.shields.io/github/stars/node9-ai/node9-proxy)](https://github.com/node9-ai/node9-proxy) |
 | **[Vestige](https://github.com/samvallad33/vestige)** | Local safety and memory layer for AI agents: Operator Lite, a hook-based gate whose deterministic rules block destructive agent shell commands (force-push, destructive SQL, reverse shells, cloud-metadata access) before they run, and Strata, an append-only hash-chained memory log that traces poisoned memory back to the write that introduced it | [![GitHub](https://img.shields.io/github/stars/samvallad33/vestige)](https://github.com/samvallad33/vestige) |
 
+| **[InGravity](https://github.com/Tchesseludovic17-cloud/ingravity)** | Open-source governance and safety layer that evaluates agent-proposed tool actions against deterministic policies, records decisions, supports human approval, and provides an MCP gateway |
+
 ## Agent Skill Specifications
 
 | Specification | Org | Focus |
