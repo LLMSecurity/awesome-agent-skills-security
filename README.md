@@ -625,6 +625,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[Unified Misuse Monitoring](https://github.com/atryt0ne/unified-misuse-monitoring-benchmark)** | When (not just whether) an agent trajectory becomes harmful, under decomposition + prompt-injection attacks with a labelled harm window | ~6,200 transcripts, 17 monitor configs | [Pramod et al.](https://arxiv.org/abs/2610.07089) |
 | **[CredLeakBench](https://arxiv.org/abs/2610.08871)** | Credential leakage and recovery in tool-using agents under phishing / identity verification (sandboxed, actual-submission measurement) | User-directed auth + autonomous inbox monitoring, paired phishing/legitimate | [Ahmed et al.](https://arxiv.org/abs/2610.08871) |
 | **[DecepEval](https://arxiv.org/abs/2610.07967)** | Condition-dependent deception in LLM agents (pressure, incentive, opportunity, conflict) with paired neutral/induced instances | 1,532 instances, 3 task families, 28 scenarios | [Xu et al.](https://arxiv.org/abs/2610.07967) |
+| **[EC²-Bench (EC2-Bench)](https://github.com/OpenBMB/EC2-Bench)** | Privacy exposure of workspace data to cloud models during edge–cloud collaborative agent execution, measured jointly with task performance and cloud cost | 128 executable digital-workspace tasks, 100 with privacy annotations | [Huang et al.](https://arxiv.org/abs/2610.17816) |
 
 ## Tools & Frameworks
 
