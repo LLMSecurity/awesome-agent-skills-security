@@ -696,6 +696,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[LangChain Tools](https://python.langchain.com/docs/modules/agents/tools/)** | LangChain | Tool abstraction for agent frameworks |
 | **[AutoGPT Plugins](https://github.com/Significant-Gravitas/AutoGPT)** | AutoGPT | Plugin system for autonomous agents |
 | **[OpenAPI/Swagger](https://swagger.io/specification/)** | Linux Foundation | API specification commonly used as tool definitions |
+| **[vibeshield-mod](https://github.com/zColdWater/vibeshield-claude-mod)** | Zero-dependency, zero-network Claude Code function-hooks guardrail mod that intercepts `Write`, `Edit`, and `Bash` tool payloads in-memory to deny `NEXT_PUBLIC_*`/`VITE_*` secret exposure, hardcoded live credentials in client bundles, and `git add .env` | [![GitHub](https://img.shields.io/github/stars/zColdWater/vibeshield-claude-mod)](https://github.com/zColdWater/vibeshield-claude-mod) |
 
 ## Industry Reports & Blog Posts
 
