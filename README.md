@@ -698,6 +698,8 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[agent-preflight](https://github.com/sudodrift/agent-preflight)** | Pre-launch check for coding agents: lists the instruction and config files Claude Code, Codex, Cursor, Copilot, Gemini CLI and VS Code would load from a folder up to home, and flags unapproved MCP servers, changed base URLs, auto-run hooks and internet-origin agent files. Read-only, no network | [![GitHub](https://img.shields.io/github/stars/sudodrift/agent-preflight)](https://github.com/sudodrift/agent-preflight) |
 | **[Tracekit](https://github.com/Cygnux-Labs/Tracekit)** | Out-of-process signer that coding-agent hooks, framework adapters and an MCP gateway ask before each tool call runs: it allows, denies or holds the call until a person approves the exact arguments, and signs every call, decision and result into a per-run hash chain that verifies offline; calls that bypass those hooks, adapters or the gateway aren't recorded | [![GitHub](https://img.shields.io/github/stars/Cygnux-Labs/Tracekit)](https://github.com/Cygnux-Labs/Tracekit) |
 
+- [Sentinel Scan](https://github.com/ranadhir19/sentinel-scan) - Scanner for agent skills and MCP servers (tool poisoning, rug pulls, dangerous sinks, hardcoded secrets) whose rules carry measured precision from a labelled near-miss corpus — built against the scanner-precision problem (27 detections → 6 genuine concerns in an April 2026 audit).
+
 ## Agent Skill Specifications
 
 | Specification | Org | Focus |
