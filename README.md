@@ -708,6 +708,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[llm-agent-security-principles](https://github.com/shimo4228/llm-agent-security-principles)** | Agent Skill (one Markdown file that runs nothing) with three structural design rules for autonomous LLM agents: Security by Absence (dangerous capabilities left unimplemented), Untrusted Content Boundary (accumulated memory, including the agent's own distilled output, treated as untrusted when read back into a prompt) and One External Adapter (at most one pinned external side-effect surface per process), plus a 9-item anti-pattern checklist and 8 design review questions | [![GitHub](https://img.shields.io/github/stars/shimo4228/llm-agent-security-principles)](https://github.com/shimo4228/llm-agent-security-principles) |
 
 | **[InGravity](https://github.com/Tchesseludovic17-cloud/ingravity)** | Open-source governance and safety layer that evaluates agent-proposed tool actions against deterministic policies, records decisions, supports human approval, and provides an MCP gateway |
+| **[Know Your Agent](https://github.com/RishabhPande/know-your-agent)** | Educational Python examples of Ed25519-signed agent credentials, narrowed delegation, revocation and scoped authorization for synthetic purchases | [![GitHub](https://img.shields.io/github/stars/RishabhPande/know-your-agent)](https://github.com/RishabhPande/know-your-agent) |
 
 ## Agent Skill Specifications
 
