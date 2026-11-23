@@ -699,6 +699,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[Tracekit](https://github.com/Cygnux-Labs/Tracekit)** | Out-of-process signer that coding-agent hooks, framework adapters and an MCP gateway ask before each tool call runs: it allows, denies or holds the call until a person approves the exact arguments, and signs every call, decision and result into a per-run hash chain that verifies offline; calls that bypass those hooks, adapters or the gateway aren't recorded | [![GitHub](https://img.shields.io/github/stars/Cygnux-Labs/Tracekit)](https://github.com/Cygnux-Labs/Tracekit) |
 
 - [Sentinel Scan](https://github.com/ranadhir19/sentinel-scan) - Scanner for agent skills and MCP servers (tool poisoning, rug pulls, dangerous sinks, hardcoded secrets) whose rules carry measured precision from a labelled near-miss corpus — built against the scanner-precision problem (27 detections → 6 genuine concerns in an April 2026 audit).
+| **[WebMCP Explorer by Corsen AI](https://github.com/CorsenAI/webmcp-explorer)** | Chrome extension that reviews the WebMCP tools a web page exposes to agents (heuristic prompt-injection and schema indicators with evidence, fix templates that do not modify the page, SARIF export) and offers an optional local MCP bridge that requires approval by default before tool calls | [![GitHub](https://img.shields.io/github/stars/CorsenAI/webmcp-explorer)](https://github.com/CorsenAI/webmcp-explorer) |
 
 ## Agent Skill Specifications
 
