@@ -716,6 +716,7 @@ AI agents increasingly use external tools, plugins, and skills to interact with 
 | **[AgentSkills.io](https://agentskills.io/specification)** | Open Standard | Agent skill definition and security requirements |
 | **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)** | Anthropic | Tool/resource integration protocol for LLMs |
 | **[OpenAI Function Calling](https://platform.openai.com/docs/guides/function-calling)** | OpenAI | Tool use specification for GPT models |
+| **[PACT](https://github.com/Balanov/pact)** | Balanov | Verifiable trail format for agent-initiated payments: quote, consent, commit and receipt chained by digests, verifiable offline without a shared service. |
 | **[Tool Use (Claude)](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)** | Anthropic | Claude's native tool use interface |
 | **[LangChain Tools](https://python.langchain.com/docs/modules/agents/tools/)** | LangChain | Tool abstraction for agent frameworks |
 | **[AutoGPT Plugins](https://github.com/Significant-Gravitas/AutoGPT)** | AutoGPT | Plugin system for autonomous agents |
